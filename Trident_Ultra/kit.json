@@ -1,0 +1,4011 @@
+{
+  "schemaVersion": 1,
+  "kit": "formbot-trident-r2-ultra",
+  "name": "Formbot Trident R2 Ultra (350 mm)",
+  "publisher": "cyberknet",
+  "version": "1",
+  "description": "The printed parts for a Voron Trident R2 350 mm built from Formbot's R2 Ultra kit: Voron R2 frame, gantry and Z parts, Stealthburner toolhead, a Nevermore plenum lid, and Formbot's own additions.",
+  "options": [],
+  "variantGroups": [
+    {
+      "id": "a-b-motor-cover",
+      "label": "A/B motor cover",
+      "question": "Which A/B motor cover?",
+      "options": [
+        "[a]_cover_bearing_x2.stl",
+        "circlip_x2.stl",
+        "[a]_cover_logo_x2.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "y-endstop",
+      "label": "Y endstop",
+      "question": "Which Y endstop?",
+      "options": [
+        "[a]_y_endstop_pod.stl",
+        "[a]_y_bumper.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "cw2-cable-door-toolhead-pcb",
+      "label": "CW2 cable door / toolhead PCB",
+      "question": "Which CW2 cable door / toolhead PCB?",
+      "options": [
+        "[a]_pcb_spacer.stl",
+        "cable_door_for_pcb.stl",
+        "cable_door.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "extruder",
+      "label": "Extruder",
+      "question": "Which Extruder?",
+      "options": [
+        "[a]_guidler_a.stl",
+        "[a]_guidler_b.stl",
+        "[a]_latch_shuttle.stl",
+        "[a]_latch.stl",
+        "main_body.stl",
+        "motor_plate.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "hotend-printhead",
+      "label": "Hotend printhead",
+      "question": "Which Hotend printhead?",
+      "options": [
+        "stealthburner_printhead_dragon_front.stl",
+        "stealthburner_printhead_dragon_rear_cw2.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "tools",
+      "label": "Tools",
+      "question": "Which Tools?",
+      "options": [
+        "SB_5015_Cutting_Tool_A.stl",
+        "SB_5015_Cutting_Tool_B.stl",
+        "10mm_extrusion_drill_guide.stl",
+        "110mm_Y_alignment_spacer_x2.stl",
+        "140mm_extrusion_drill_guide.stl",
+        "ba_pulley_align_tool.stl",
+        "MGN12_rail_guide_x2.stl",
+        "MGN9_rail_guide_x2.stl",
+        "ptfe_jig_35mm.stl",
+        "z_alignment_tool_rear.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "z-cable-chain-pattern",
+      "label": "Z cable chain pattern",
+      "question": "Which Z cable chain pattern?",
+      "options": [
+        "z_lower_3hole.stl",
+        "z_rear_insert_3hole.stl",
+        "z_lower_2hole.stl",
+        "z_rear_insert_2hole.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "unidentified-formbot-part",
+      "label": "Unidentified Formbot part",
+      "question": "Which Unidentified Formbot part?",
+      "options": [
+        "3-6.STL"
+      ],
+      "default": null
+    },
+    {
+      "id": "cw2-umbilical-anchor",
+      "label": "CW2 umbilical anchor",
+      "question": "Which CW2 umbilical anchor?",
+      "options": [
+        "Anchor v2.stl",
+        "chain_anchor_2hole.stl",
+        "chain_anchor_3hole.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "display-mount-hdmi5",
+      "label": "Display mount (HDMI5)",
+      "question": "Which Display mount (HDMI5)?",
+      "options": [
+        "BTT HDMI5 V1_2 mount bracket_Regular.stl",
+        "BTT HDMI5 V1_2 mount frame_Regular.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "umbilical-gantry-end-formbot",
+      "label": "Umbilical: gantry end (Formbot)",
+      "question": "Which Umbilical: gantry end (Formbot)?",
+      "options": [
+        "cable support rod for CAN.STL",
+        "PG7 Gantry Adapter.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "controller-mount",
+      "label": "Controller mount",
+      "question": "Which Controller mount?",
+      "options": [
+        "Manta_M8P_2pc.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "nevermore-plenum-lid",
+      "label": "Nevermore plenum lid",
+      "question": "Which Nevermore plenum lid?",
+      "options": [
+        "Trident_Bed_Mount_Plenum_Lid_r1.stl",
+        "V6_Plenum_Lid.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "right-xy-joint-accent",
+      "label": "Right XY joint accent",
+      "question": "Which Right XY joint accent?",
+      "options": [
+        "[a]_d2f_cover.stl",
+        "[a]_xy_right.stl",
+        "[a]_xy_right_d2f.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "x-carriage",
+      "label": "X carriage",
+      "question": "Which X carriage?",
+      "options": [
+        "x_carriage_frame_left.stl",
+        "x_carriage_frame_right.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "panel-clip-thickness",
+      "label": "Panel clip thickness",
+      "question": "Which Panel clip thickness?",
+      "options": [
+        "corner_panel_clip_4mm_x8.stl",
+        "corner_panel_clip_6mm_x8.stl",
+        "midspan_panel_clip_4mm_x7.stl",
+        "midspan_panel_clip_6mm_x8.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "rear-ptfe-plate",
+      "label": "Rear PTFE plate",
+      "question": "Which Rear PTFE plate?",
+      "options": [
+        "[a]_exhaust_grill.stl",
+        "ptfe_inlet_clamp.stl",
+        "ptfe_plate.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "side-fan-grill-style",
+      "label": "Side fan grill style",
+      "question": "Which Side fan grill style?",
+      "options": [
+        "[a]_fan_grill_open_optional_x2.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "keystone-rear-skirt",
+      "label": "Keystone rear skirt",
+      "question": "Which Keystone rear skirt?",
+      "options": [
+        "[a]_keystone_blank_insert_x2.stl",
+        "rear_skirt_keystone.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "power-inlet-rear-skirt",
+      "label": "Power inlet (rear skirt)",
+      "question": "Which Power inlet (rear skirt)?",
+      "options": [
+        "rear_skirt_power_adamstech.stl",
+        "rear_skirt_power_filtered.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "adxl-mount",
+      "label": "ADXL mount",
+      "question": "Which ADXL mount?",
+      "options": [
+        "sb_adxl_mount_generic_15.5mm_c_c.stl",
+        "sb_adxl_washer_x2.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "deck-support-thickness",
+      "label": "Deck support thickness",
+      "question": "Which Deck support thickness?",
+      "options": [
+        "deck_support_3mm_optional_x6.stl",
+        "deck_support_4mm_optional_x6.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "24v-psu-mount",
+      "label": "24V PSU mount",
+      "question": "Which 24V PSU mount?",
+      "options": [
+        "lrs_psu_bracket_x2.stl",
+        "UHP_200_Mount_x2.stl",
+        "UHP_350_Mount_x2.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "host-computer-mount",
+      "label": "Host computer mount",
+      "question": "Which Host computer mount?",
+      "options": [
+        "raspberrypi_bracket.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "5v-psu-mount",
+      "label": "5V PSU mount",
+      "question": "Which 5V PSU mount?",
+      "options": [
+        "rs25_psu_bracket.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "spool-holder",
+      "label": "Spool holder",
+      "question": "Which Spool holder?",
+      "options": [
+        "ptfe_holder.stl",
+        "spool_holder_arm.stl",
+        "spool_holder_base.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "xy-cable-bridge",
+      "label": "XY cable bridge",
+      "question": "Which XY cable bridge?",
+      "options": [
+        "[a]_cable_bridge_2hole.stl",
+        "[a]_cable_bridge_3hole.stl"
+      ],
+      "default": null
+    },
+    {
+      "id": "x-carriage-inductive-probe",
+      "label": "X carriage (inductive probe)",
+      "question": "Which X carriage (inductive probe)?",
+      "options": [
+        "pinda_adapter.stl",
+        "probe_retainer_bracket.stl",
+        "probe_retainer_bracket_9mm.stl"
+      ],
+      "default": null
+    }
+  ],
+  "printRequirements": [
+    {
+      "id": "nozzle",
+      "label": "Nozzle diameter",
+      "value": 0.4,
+      "unit": "mm",
+      "reason": "The parts are designed around a 0.4 mm nozzle.",
+      "source": "Voron manual, printing the parts"
+    },
+    {
+      "id": "perimeters",
+      "label": "Perimeters",
+      "value": 4,
+      "reason": "Strength of the structural parts.",
+      "source": "Voron manual, printing the parts"
+    },
+    {
+      "id": "infill",
+      "label": "Infill",
+      "value": "40% grid",
+      "reason": "Strength of the structural parts.",
+      "source": "Voron manual, printing the parts"
+    },
+    {
+      "id": "top-bottom",
+      "label": "Top and bottom layers",
+      "value": 5,
+      "reason": "Strength of the structural parts.",
+      "source": "Voron manual, printing the parts"
+    },
+    {
+      "id": "supports",
+      "label": "Supports",
+      "value": "off",
+      "reason": "Parts are oriented to print without supports.",
+      "source": "Voron manual, printing the parts"
+    },
+    {
+      "id": "material",
+      "label": "Material",
+      "value": "ABS or ASA",
+      "reason": "Parts near the heated bed and toolhead need a high-temperature material.",
+      "source": "Voron manual, printing the parts"
+    }
+  ],
+  "parts": [
+    {
+      "file": "[a]_idler_carrier_a_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/Front_Idlers/[a]_idler_carrier_a_x2.stl",
+      "color": "Accent",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/Front_Idlers",
+      "dims": [
+        37.8,
+        16.6,
+        16.4
+      ],
+      "source": "Voron-Trident VTr2: Gantry/Front_Idlers/[a]_idler_carrier_a_x2.stl",
+      "reference": {
+        "gramsPerPiece": 4.18,
+        "printSeconds": 1350,
+        "sha256": "81c49b214440e5b9535308470272e7fe0c62a59373597962be5bd6c4329b6036",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 31
+      }
+    },
+    {
+      "file": "[a]_idler_carrier_b_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/Front_Idlers/[a]_idler_carrier_b_x2.stl",
+      "color": "Accent",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/Front_Idlers",
+      "dims": [
+        37.8,
+        16.6,
+        16.4
+      ],
+      "source": "Voron-Trident VTr2: Gantry/Front_Idlers/[a]_idler_carrier_b_x2.stl",
+      "reference": {
+        "gramsPerPiece": 4.75,
+        "printSeconds": 1348,
+        "sha256": "83a997579e232f2177748880d4aa9b7fd165afd1edd6685ff8d49816fb2ddfd4",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 13
+      }
+    },
+    {
+      "file": "[a]_idler_front_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/Front_Idlers/[a]_idler_front_x2.stl",
+      "color": "Accent",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/Front_Idlers",
+      "dims": [
+        56.5,
+        16,
+        8.6
+      ],
+      "source": "Voron-Trident VTr2: Gantry/Front_Idlers/[a]_idler_front_x2.stl",
+      "reference": {
+        "gramsPerPiece": 5.09,
+        "printSeconds": 1085,
+        "sha256": "8affb9142325437d7415c92424690b10abf2d4def46128fa8d080dad58034761",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "idler_housing_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/Front_Idlers/idler_housing_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/Front_Idlers",
+      "dims": [
+        56.5,
+        37,
+        42
+      ],
+      "source": "Voron-Trident VTr2: Gantry/Front_Idlers/idler_housing_x2.stl",
+      "reference": {
+        "gramsPerPiece": 23.21,
+        "printSeconds": 5834,
+        "sha256": "769a424c0a65906059d03d8450e97bb4ba82994e1494bcb06a7f5d8adf8df4f2",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_xy_left.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/XY_Joints/[a]_xy_left.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/X_Axis/XY_Joints",
+      "dims": [
+        56,
+        46,
+        5
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/XY_Joints/[a]_xy_left.stl",
+      "reference": {
+        "gramsPerPiece": 8.17,
+        "printSeconds": 1767,
+        "sha256": "7592e26c11dd4c4339a2b594b0ab90654ad3fbd064c47f8a59d306d72a210242",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "xy_left_lower.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/XY_Joints/xy_left_lower.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/X_Axis/XY_Joints",
+      "dims": [
+        56,
+        48.8,
+        25
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/XY_Joints/xy_left_lower.stl",
+      "reference": {
+        "gramsPerPiece": 21.67,
+        "printSeconds": 4822,
+        "sha256": "b012d191ee9cc1b3a5b0aff79d8e51dbe30eed1318c22d422dfa1fcdc68279b0",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "xy_left_upper.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/XY_Joints/xy_left_upper.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/X_Axis/XY_Joints",
+      "dims": [
+        53,
+        48.8,
+        16
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/XY_Joints/xy_left_upper.stl",
+      "reference": {
+        "gramsPerPiece": 13.06,
+        "printSeconds": 2976,
+        "sha256": "b39773ce15df0e807e95e71549c312ea2510efdd3ed7872ad596d3d3f5f7660d",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "xy_right_lower.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/XY_Joints/xy_right_lower.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/X_Axis/XY_Joints",
+      "dims": [
+        56,
+        48.8,
+        25
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/XY_Joints/xy_right_lower.stl",
+      "reference": {
+        "gramsPerPiece": 22.04,
+        "printSeconds": 5036,
+        "sha256": "48327d7f2f66ea014faf56f9cc44ffa6b46bcdf1d08403e54d673aa6e4e5e0d7",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "xy_right_upper.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/XY_Joints/xy_right_upper.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/X_Axis/XY_Joints",
+      "dims": [
+        53,
+        48.8,
+        16
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/XY_Joints/xy_right_upper.stl",
+      "reference": {
+        "gramsPerPiece": 12.56,
+        "printSeconds": 2886,
+        "sha256": "d57fd49c0c8cd9d99e14963b82160f701cca9dfde379bb8be095cc1df6e035d2",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_cover_bearing_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/ba_drive_units/[a]_cover_bearing_x2.stl",
+      "color": "Accent",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "a-b-motor-cover",
+      "safety": "SAFE",
+      "safetyReason": "R2 kit page: long-shaft XY motors; the draft pack ships the bearing cover.",
+      "folder": "Gantry/ba_drive_units",
+      "dims": [
+        43.2,
+        42.2,
+        8
+      ],
+      "source": "Voron-Trident VTr2: Gantry/ba_drive_units/[a]_cover_bearing_x2.stl",
+      "notes": "Bearing cover (long-shaft motors). Formbot R2 page: long-shaft XY motors, so likely this. Needs circlip_x2 too.",
+      "reference": {
+        "gramsPerPiece": 6.61,
+        "printSeconds": 1452,
+        "sha256": "b598f734089c6c61d203c18e92071d305dedcbc64c842855d59ece142a2f2c9f",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 6
+      }
+    },
+    {
+      "file": "[a]_y_endstop_pod.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/ba_drive_units/[a]_y_endstop_pod.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "y-endstop",
+      "safety": "SAFE",
+      "safetyReason": "Formbot notes: physical endstops; the draft pack ships this pod.",
+      "folder": "Gantry/ba_drive_units",
+      "dims": [
+        20,
+        33.6,
+        15
+      ],
+      "source": "Voron-Trident VTr2: Gantry/ba_drive_units/[a]_y_endstop_pod.stl",
+      "notes": "D2F switch under A motor mount. Formbot says physical endstops, so likely this.",
+      "reference": {
+        "gramsPerPiece": 5.46,
+        "printSeconds": 1381,
+        "sha256": "ee13a71bf74f2df8f2f8422ee8e9539e09f13c1f3a28346e1e64d6e3c0dc8373",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "a_stepper_lower.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/ba_drive_units/a_stepper_lower.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/ba_drive_units",
+      "dims": [
+        116,
+        54,
+        16
+      ],
+      "source": "Voron-Trident VTr2: Gantry/ba_drive_units/a_stepper_lower.stl",
+      "reference": {
+        "gramsPerPiece": 25.12,
+        "printSeconds": 5519,
+        "sha256": "853dbf3f790b69cc462d643f3a974c4e8444b2897cf994ff8881b9bebd2e16fe",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "a_stepper_upper.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/ba_drive_units/a_stepper_upper.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/ba_drive_units",
+      "dims": [
+        116,
+        54,
+        16
+      ],
+      "source": "Voron-Trident VTr2: Gantry/ba_drive_units/a_stepper_upper.stl",
+      "reference": {
+        "gramsPerPiece": 25.15,
+        "printSeconds": 5560,
+        "sha256": "0493fdbfdb4125d24c07036c01b98302e4ad58afdfd2c9ee864bc4ee57215faa",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "b_stepper_lower.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/ba_drive_units/b_stepper_lower.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/ba_drive_units",
+      "dims": [
+        116,
+        54,
+        16
+      ],
+      "source": "Voron-Trident VTr2: Gantry/ba_drive_units/b_stepper_lower.stl",
+      "reference": {
+        "gramsPerPiece": 24.97,
+        "printSeconds": 5365,
+        "sha256": "bfe72f8d34804dd92cbf13e611a28579538a8d85314b219cd6bb80317c0905fb",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "b_stepper_upper.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/ba_drive_units/b_stepper_upper.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/ba_drive_units",
+      "dims": [
+        116,
+        54,
+        16
+      ],
+      "source": "Voron-Trident VTr2: Gantry/ba_drive_units/b_stepper_upper.stl",
+      "reference": {
+        "gramsPerPiece": 25.3,
+        "printSeconds": 5708,
+        "sha256": "f8caa1c8773de5df3cdbe94835f8d63b5d6dccce3d661ea0a1e16032c09e5e7c",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "circlip_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/ba_drive_units/circlip_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "a-b-motor-cover",
+      "safety": "SAFE",
+      "safetyReason": "Required by the bearing cover (R2 manual); long-shaft motors per kit page.",
+      "folder": "Gantry/ba_drive_units",
+      "dims": [
+        16.8,
+        16.4,
+        1.6
+      ],
+      "source": "Voron-Trident VTr2: Gantry/ba_drive_units/circlip_x2.stl",
+      "notes": "Goes with the bearing cover only.",
+      "reference": {
+        "gramsPerPiece": 0.18,
+        "printSeconds": 91,
+        "sha256": "7b7152f8b41e91849fd9cb2db4b72be55565c31f6ef4a95d36e43ce30d5c78b0",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 31
+      }
+    },
+    {
+      "file": "bottom_panel_clip_x4.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/bottom_panel_clip_x4.stl",
+      "color": "Primary",
+      "qty": 4,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels",
+      "dims": [
+        30,
+        31.7,
+        6
+      ],
+      "source": "Voron-Trident VTr2: Panels/bottom_panel_clip_x4.stl",
+      "reference": {
+        "gramsPerPiece": 2.9,
+        "printSeconds": 560,
+        "sha256": "57843c92364b0a651b12e9e658063e8deedca22f9c7e0fa174bbc9e20a186c26",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 9
+      }
+    },
+    {
+      "file": "bottom_panel_hinge_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/bottom_panel_hinge_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels",
+      "dims": [
+        40,
+        31.5,
+        6
+      ],
+      "source": "Voron-Trident VTr2: Panels/bottom_panel_hinge_x2.stl",
+      "reference": {
+        "gramsPerPiece": 3.84,
+        "printSeconds": 890,
+        "sha256": "c76fa1c0252d296a9fefd04825b687885e7ba7359971ac84c443245dcc5add66",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "wire_cover_left.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/wire_cover_left.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels",
+      "dims": [
+        40,
+        47,
+        10.2
+      ],
+      "source": "Voron-Trident VTr2: Panels/wire_cover_left.stl",
+      "reference": {
+        "gramsPerPiece": 3.34,
+        "printSeconds": 896,
+        "sha256": "9521f9dd7397cb966977b22de14343ea4e51cda4326ce2f6704db1034fc82c64",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 175
+      }
+    },
+    {
+      "file": "wire_cover_right.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/wire_cover_right.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels",
+      "dims": [
+        40,
+        47,
+        10.2
+      ],
+      "source": "Voron-Trident VTr2: Panels/wire_cover_right.stl",
+      "reference": {
+        "gramsPerPiece": 3.34,
+        "printSeconds": 897,
+        "sha256": "6971fec174821aab753d24daa4e1d5e5484d26f189458e2af915f1de019e2ed8",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 176
+      }
+    },
+    {
+      "file": "door_hinge_x6.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/Front_Doors/door_hinge_x6.stl",
+      "color": "Primary",
+      "qty": 6,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels/Front_Doors",
+      "dims": [
+        40,
+        27,
+        13
+      ],
+      "source": "Voron-Trident VTr2: Panels/Front_Doors/door_hinge_x6.stl",
+      "reference": {
+        "gramsPerPiece": 4.65,
+        "printSeconds": 1303,
+        "sha256": "d61e8266b909ee1c105c25fca7256704edcc37c441ffa7b5a3e1d749e2986840",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 189
+      }
+    },
+    {
+      "file": "handle_a_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/Front_Doors/handle_a_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels/Front_Doors",
+      "dims": [
+        27,
+        40,
+        7
+      ],
+      "source": "Voron-Trident VTr2: Panels/Front_Doors/handle_a_x2.stl",
+      "reference": {
+        "gramsPerPiece": 3.51,
+        "printSeconds": 711,
+        "sha256": "2957b9fcbf8e8d4f571d4adc90ee6db066f79b5da1da4d24bf2288ad989c2c87",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 31
+      }
+    },
+    {
+      "file": "handle_b_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/Front_Doors/handle_b_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels/Front_Doors",
+      "dims": [
+        27,
+        40,
+        7
+      ],
+      "source": "Voron-Trident VTr2: Panels/Front_Doors/handle_b_x2.stl",
+      "reference": {
+        "gramsPerPiece": 3.5,
+        "printSeconds": 707,
+        "sha256": "83015e5be896b74542cc1b8804a94e2a716bf8009d63b28ebfec320be7d42836",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 31
+      }
+    },
+    {
+      "file": "latch_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/Front_Doors/latch_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels/Front_Doors",
+      "dims": [
+        10,
+        45.9,
+        13
+      ],
+      "source": "Voron-Trident VTr2: Panels/Front_Doors/latch_x2.stl",
+      "reference": {
+        "gramsPerPiece": 3.14,
+        "printSeconds": 908,
+        "sha256": "211802b057d874bffb98ecab6f27c5ea6aa1a8a5e0b0309bdd7d844af16012ff",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 110
+      }
+    },
+    {
+      "file": "[a]_fan_grill_a_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/[a]_fan_grill_a_x2.stl",
+      "color": "Accent",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt",
+      "dims": [
+        60,
+        60,
+        3.2
+      ],
+      "source": "Voron-Trident VTr2: Skirt/[a]_fan_grill_a_x2.stl",
+      "reference": {
+        "gramsPerPiece": 5.39,
+        "printSeconds": 1398,
+        "sha256": "bc4e31c697a0dd8f8c733fe8abe09319a1a3385276294b0095cf760cae4fc895",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_fan_grill_b_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/[a]_fan_grill_b_x2.stl",
+      "color": "Accent",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt",
+      "dims": [
+        60,
+        60,
+        3.2
+      ],
+      "source": "Voron-Trident VTr2: Skirt/[a]_fan_grill_b_x2.stl",
+      "reference": {
+        "gramsPerPiece": 5.39,
+        "printSeconds": 1406,
+        "sha256": "3b1e7307d7acb8e564598bc3fcf8a655a6416d5b0309fd77c804023364124641",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_fan_grill_retainer_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/[a]_fan_grill_retainer_x2.stl",
+      "color": "Accent",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt",
+      "dims": [
+        60,
+        60,
+        5
+      ],
+      "source": "Voron-Trident VTr2: Skirt/[a]_fan_grill_retainer_x2.stl",
+      "reference": {
+        "gramsPerPiece": 3.66,
+        "printSeconds": 1043,
+        "sha256": "bd6a2ef79409853e9a9c14c057b7f01cfbdb5e9c43a310a2d9e8ad6f8ea4daec",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_skirt_corner_a_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/[a]_skirt_corner_a_x2.stl",
+      "color": "Accent",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt",
+      "dims": [
+        44,
+        46,
+        6
+      ],
+      "source": "Voron-Trident VTr2: Skirt/[a]_skirt_corner_a_x2.stl",
+      "reference": {
+        "gramsPerPiece": 2.67,
+        "printSeconds": 712,
+        "sha256": "03855c65952f33b58590182cd049699d74edf2983d753e49b410c0ed5aeebf51",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_skirt_corner_b_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/[a]_skirt_corner_b_x2.stl",
+      "color": "Accent",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt",
+      "dims": [
+        44,
+        46,
+        6
+      ],
+      "source": "Voron-Trident VTr2: Skirt/[a]_skirt_corner_b_x2.stl",
+      "reference": {
+        "gramsPerPiece": 2.67,
+        "printSeconds": 712,
+        "sha256": "c190e5cea0f196b336d7decd1ab5c772af9b871ad3af28fb675c41325fbe27d4",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_skirt_logo_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/[a]_skirt_logo_x2.stl",
+      "color": "Accent",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt",
+      "dims": [
+        26,
+        26,
+        8.8
+      ],
+      "source": "Voron-Trident VTr2: Skirt/[a]_skirt_logo_x2.stl",
+      "reference": {
+        "gramsPerPiece": 1.35,
+        "printSeconds": 535,
+        "sha256": "ab7c1b28bdaaea70e70a0655eeb0a5c1d64ecf5a18911dd0d4e330d608b05591",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 148
+      }
+    },
+    {
+      "file": "side_fan_support_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/side_fan_support_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt",
+      "dims": [
+        72,
+        180,
+        20
+      ],
+      "source": "Voron-Trident VTr2: Skirt/side_fan_support_x2.stl",
+      "reference": {
+        "gramsPerPiece": 28.85,
+        "printSeconds": 6195,
+        "sha256": "367caea0ef70d4d4c9644a22e6c7e31a0328bab1d01d2a6744b224ae09626aab",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "skirt_corner_a_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/skirt_corner_a_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt",
+      "dims": [
+        67,
+        46,
+        47
+      ],
+      "source": "Voron-Trident VTr2: Skirt/skirt_corner_a_x2.stl",
+      "reference": {
+        "gramsPerPiece": 35.19,
+        "printSeconds": 6942,
+        "sha256": "7386ae2a96d0e46943f96f9a5bd193d5785f282bdada97d26dadb3a5cfaff7ba",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 28
+      }
+    },
+    {
+      "file": "skirt_corner_b_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/skirt_corner_b_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt",
+      "dims": [
+        67,
+        46,
+        47
+      ],
+      "source": "Voron-Trident VTr2: Skirt/skirt_corner_b_x2.stl",
+      "reference": {
+        "gramsPerPiece": 35.2,
+        "printSeconds": 6942,
+        "sha256": "1c88a17ec43fa72a71295acc85f09f5061400676b474c126869d5f89797a2ff7",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 28
+      }
+    },
+    {
+      "file": "front_skirt_left_350.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/350/front_skirt_left_350.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt/350",
+      "dims": [
+        164,
+        66.8,
+        20
+      ],
+      "source": "Voron-Trident VTr2: Skirt/350/front_skirt_left_350.stl",
+      "reference": {
+        "gramsPerPiece": 42.59,
+        "printSeconds": 10017,
+        "sha256": "299b18b0985b7491265a36ee255794a60eb3d0553409986dd2eab3dc67552a5e",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "front_skirt_right_350.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/350/front_skirt_right_350.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt/350",
+      "dims": [
+        164,
+        66.8,
+        20
+      ],
+      "source": "Voron-Trident VTr2: Skirt/350/front_skirt_right_350.stl",
+      "reference": {
+        "gramsPerPiece": 42.58,
+        "printSeconds": 10014,
+        "sha256": "ff0d6731abbf12c05defb391a3b3f76566b8b8f214a52531640db38229bf856e",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "rear_skirt_center_350.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/350/rear_skirt_center_350.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt/350",
+      "dims": [
+        217,
+        66.8,
+        20
+      ],
+      "source": "Voron-Trident VTr2: Skirt/350/rear_skirt_center_350.stl",
+      "reference": {
+        "gramsPerPiece": 65.79,
+        "printSeconds": 13635,
+        "sha256": "a432907a26a6f2af989b2079eb871350d0891bed71bd00324cb4c90069e6a01f",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "side_skirt_a_350_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/350/side_skirt_a_350_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt/350",
+      "dims": [
+        66.8,
+        132.5,
+        20
+      ],
+      "source": "Voron-Trident VTr2: Skirt/350/side_skirt_a_350_x2.stl",
+      "reference": {
+        "gramsPerPiece": 36.31,
+        "printSeconds": 8425,
+        "sha256": "0eb5c986e448b28c4e83927593106f6040acdfb9cf6fe7a4185ae6aeae44bbd4",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "side_skirt_b_350_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/350/side_skirt_b_350_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Visible",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt/350",
+      "dims": [
+        66.8,
+        132.5,
+        20
+      ],
+      "source": "Voron-Trident VTr2: Skirt/350/side_skirt_b_350_x2.stl",
+      "reference": {
+        "gramsPerPiece": 36.31,
+        "printSeconds": 8423,
+        "sha256": "0adcba0759d5ee5729d5de300e4bf416fd84289395b9c0571fdcad8486a7ff18",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_pcb_spacer.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Clockwork2/[a]_pcb_spacer.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "cw2-cable-door-toolhead-pcb",
+      "safety": "SAFE",
+      "safetyReason": "Formbot build notes: toolhead PCB is used; identical in SB repo, Formbot GitHub and draft pack.",
+      "folder": "Toolhead/Clockwork2",
+      "dims": [
+        18.8,
+        18,
+        3.8
+      ],
+      "source": "Voron-Stealthburner: Clockwork2/[a]_pcb_spacer.stl",
+      "notes": "Needed with a toolhead PCB (Formbot: SB2209 board).",
+      "reference": {
+        "gramsPerPiece": 0.32,
+        "printSeconds": 184,
+        "sha256": "9c87b70a264dbd7743bab12b9d909b04991030cd2f39c22eacefd8246c727be4",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 70
+      }
+    },
+    {
+      "file": "cable_door_for_pcb.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Clockwork2/cable_door_for_pcb.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "cw2-cable-door-toolhead-pcb",
+      "safety": "SAFE",
+      "safetyReason": "Formbot build notes: toolhead PCB is used; identical in SB repo, Formbot GitHub and draft pack.",
+      "folder": "Toolhead/Clockwork2",
+      "dims": [
+        49.5,
+        69.4,
+        42.2
+      ],
+      "source": "Voron-Stealthburner: Clockwork2/cable_door_for_pcb.stl",
+      "notes": "Toolhead-PCB version; Formbot build notes use a toolhead PCB, so likely this.",
+      "reference": {
+        "gramsPerPiece": 10.06,
+        "printSeconds": 2665,
+        "sha256": "9e6f0a722df3cf7b7ad8b181dddd35448c96bb34f9d3a73a09bb6036cf63fd95",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 164
+      }
+    },
+    {
+      "file": "[a]_guidler_a.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Clockwork2/Direct_Drive/[a]_guidler_a.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "extruder",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Toolhead/Clockwork2/Direct_Drive",
+      "dims": [
+        19.5,
+        45,
+        16.2
+      ],
+      "source": "Voron-Stealthburner: Clockwork2/Direct_Drive/[a]_guidler_a.stl",
+      "notes": "Clockwork 2 direct drive.",
+      "reference": {
+        "gramsPerPiece": 3.33,
+        "printSeconds": 1154,
+        "sha256": "b117ec9e8a6ffea62d2da534b7b97d9ee5d6e5c6e0a054f3a2c2130c122e811f",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 125
+      }
+    },
+    {
+      "file": "[a]_guidler_b.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Clockwork2/Direct_Drive/[a]_guidler_b.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "extruder",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Toolhead/Clockwork2/Direct_Drive",
+      "dims": [
+        19.2,
+        31.4,
+        10.8
+      ],
+      "source": "Voron-Stealthburner: Clockwork2/Direct_Drive/[a]_guidler_b.stl",
+      "notes": "Clockwork 2 direct drive.",
+      "reference": {
+        "gramsPerPiece": 1.9,
+        "printSeconds": 626,
+        "sha256": "039a7215df8a341dcf5473cb97f213c04421874b155d8e9811e868d22cbb3e1d",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 40
+      }
+    },
+    {
+      "file": "[a]_latch_shuttle.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Clockwork2/Direct_Drive/[a]_latch_shuttle.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "extruder",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Toolhead/Clockwork2/Direct_Drive",
+      "dims": [
+        23.6,
+        12.5,
+        10.4
+      ],
+      "source": "Voron-Stealthburner: Clockwork2/Direct_Drive/[a]_latch_shuttle.stl",
+      "notes": "Clockwork 2 direct drive.",
+      "reference": {
+        "gramsPerPiece": 1.47,
+        "printSeconds": 598,
+        "sha256": "7a8430d9f67767caade676894d7cb0b4218f2d43250e5b6684913d5252fd283c",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 155
+      }
+    },
+    {
+      "file": "[a]_stealthburner_main_body.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Stealthburner/[a]_stealthburner_main_body.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Toolhead/Stealthburner",
+      "dims": [
+        65.1,
+        126.8,
+        31.8
+      ],
+      "source": "Voron-Stealthburner: Stealthburner/[a]_stealthburner_main_body.stl",
+      "reference": {
+        "gramsPerPiece": 39.53,
+        "printSeconds": 10781,
+        "sha256": "be070b34b71feffd2a3da4b8962854eed401fc946541b5764a7bf197d6f08994",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 2
+      }
+    },
+    {
+      "file": "[c]_stealthburner_LED_diffuser.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Stealthburner/[c]_stealthburner_LED_diffuser.stl",
+      "color": "Clear",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part, unconditional in the build (not listed in Formbot's draft R2 pack (unreleased, unconfirmed)).",
+      "folder": "Toolhead/Stealthburner",
+      "dims": [
+        13.8,
+        11.5,
+        5.2
+      ],
+      "source": "Voron-Stealthburner: Stealthburner/[c]_stealthburner_LED_diffuser.stl",
+      "reference": {
+        "gramsPerPiece": 0.5,
+        "printSeconds": 277,
+        "sha256": "c306642fbb57d3f0857c69a9e522ddb3b267fbb51755e2ff9fba7cdbbf8e3c41",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 108
+      }
+    },
+    {
+      "file": "[o]_stealthburner_LED_carrier.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Stealthburner/[o]_stealthburner_LED_carrier.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Toolhead/Stealthburner",
+      "dims": [
+        19.3,
+        14.4,
+        7
+      ],
+      "source": "Voron-Stealthburner: Stealthburner/[o]_stealthburner_LED_carrier.stl",
+      "reference": {
+        "gramsPerPiece": 0.9,
+        "printSeconds": 408,
+        "sha256": "cf3dcd7bc13e5d8f4b78dcef6e06ac09ead7f0c0ecc11dffb83bcc3e79841b30",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 111
+      }
+    },
+    {
+      "file": "[o]_stealthburner_LED_diffuser_mask.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Stealthburner/[o]_stealthburner_LED_diffuser_mask.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Toolhead/Stealthburner",
+      "dims": [
+        15.7,
+        13.4,
+        4.8
+      ],
+      "source": "Voron-Stealthburner: Stealthburner/[o]_stealthburner_LED_diffuser_mask.stl",
+      "reference": {
+        "gramsPerPiece": 0.29,
+        "printSeconds": 197,
+        "sha256": "49b5ec37eea509011ef25c7584ae410fc7452d726a76761f3d0ace3172246619",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 96
+      }
+    },
+    {
+      "file": "stealthburner_printhead_dragon_front.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Stealthburner/Printheads/phaetus_dragon/stealthburner_printhead_dragon_front.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "hotend-printhead",
+      "safety": "SAFE",
+      "safetyReason": "You confirmed Dragon standard flow; identical in official SB repo, Formbot GitHub and draft pack.",
+      "folder": "Toolhead/Stealthburner/Printheads/phaetus_dragon",
+      "dims": [
+        71.1,
+        59.1,
+        27.4
+      ],
+      "source": "Voron-Stealthburner: Stealthburner/Printheads/phaetus_dragon/stealthburner_printhead_dragon_front.stl",
+      "notes": "Phaetus Dragon (standard flow). Mount with 4x M2.5x8.",
+      "reference": {
+        "gramsPerPiece": 37.69,
+        "printSeconds": 9859,
+        "sha256": "a5738e719517e51eed4264881117d197fcae7e0f469db8423f7ba613f2016686",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "stealthburner_printhead_dragon_rear_cw2.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Stealthburner/Printheads/phaetus_dragon/stealthburner_printhead_dragon_rear_cw2.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "hotend-printhead",
+      "safety": "SAFE",
+      "safetyReason": "You confirmed Dragon + Clockwork 2; identical in official SB repo, Formbot GitHub and draft pack.",
+      "folder": "Toolhead/Stealthburner/Printheads/phaetus_dragon",
+      "dims": [
+        57.7,
+        59.7,
+        26.3
+      ],
+      "source": "Voron-Stealthburner: Stealthburner/Printheads/phaetus_dragon/stealthburner_printhead_dragon_rear_cw2.stl",
+      "notes": "Phaetus Dragon, Clockwork 2 rear.",
+      "reference": {
+        "gramsPerPiece": 13.48,
+        "printSeconds": 3884,
+        "sha256": "32272a6b6a4ffcf5d71cc6bedc04074363ee1e39e69e5bf62b4f9d4a201f9f61",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 167
+      }
+    },
+    {
+      "file": "SB_5015_Cutting_Tool_A.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Tools/SB_5015_Cutting_Tool_A.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "tools",
+      "safety": "SAFE",
+      "safetyReason": "Official optional jig; identical R1/R2 where it exists. Include is off until you want it.",
+      "folder": "Toolhead/Tools",
+      "dims": [
+        96.6,
+        48.4,
+        16
+      ],
+      "source": "Voron-Stealthburner: Tools/SB_5015_Cutting_Tool_A.stl",
+      "notes": "Optional SB 5015 fan cutting tool.",
+      "reference": {
+        "gramsPerPiece": 8.87,
+        "printSeconds": 2180,
+        "sha256": "78877621a1fd74e42e7f0943a8076958acbbcfebc4439a0482681a5aa84bb5f4",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "SB_5015_Cutting_Tool_B.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Tools/SB_5015_Cutting_Tool_B.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "tools",
+      "safety": "SAFE",
+      "safetyReason": "Official optional jig; identical R1/R2 where it exists. Include is off until you want it.",
+      "folder": "Toolhead/Tools",
+      "dims": [
+        17.4,
+        14.5,
+        11.5
+      ],
+      "source": "Voron-Stealthburner: Tools/SB_5015_Cutting_Tool_B.stl",
+      "notes": "Optional SB 5015 fan cutting tool.",
+      "reference": {
+        "gramsPerPiece": 1.22,
+        "printSeconds": 636,
+        "sha256": "e9900cfb51ab582eac4dbab4375483629c7b7907fd2c437853fd79c6bf5d5353",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 291
+      }
+    },
+    {
+      "file": "10mm_extrusion_drill_guide.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Tools/10mm_extrusion_drill_guide.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "tools",
+      "safety": "SAFE",
+      "safetyReason": "Official optional jig; identical R1/R2 where it exists. Include is off until you want it.",
+      "folder": "Tools",
+      "dims": [
+        9.6,
+        18,
+        10.1
+      ],
+      "source": "Voron-Trident VTr2: Tools/10mm_extrusion_drill_guide.stl",
+      "notes": "Optional assembly jig; flip Include to Yes if you want it.",
+      "reference": {
+        "gramsPerPiece": 0.8,
+        "printSeconds": 423,
+        "sha256": "f30f3b0421c79b6f254c1c5f8020dcc1e69b2d147da14fd3a45785bbacabc81e",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 169
+      }
+    },
+    {
+      "file": "110mm_Y_alignment_spacer_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Tools/110mm_Y_alignment_spacer_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "tools",
+      "safety": "SAFE",
+      "safetyReason": "Official optional jig; identical R1/R2 where it exists. Include is off until you want it.",
+      "folder": "Tools",
+      "dims": [
+        158.2,
+        15,
+        10
+      ],
+      "source": "Voron-Trident VTr2: Tools/110mm_Y_alignment_spacer_x2.stl",
+      "notes": "Optional assembly jig; flip Include to Yes if you want it.",
+      "reference": {
+        "gramsPerPiece": 7.86,
+        "printSeconds": 1736,
+        "sha256": "7921b0da55bcbcfe4bd3e0468f61ef501e41dc27376e84cf5536b0cc565bfb9e",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "140mm_extrusion_drill_guide.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Tools/140mm_extrusion_drill_guide.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "tools",
+      "safety": "SAFE",
+      "safetyReason": "Official optional jig; identical R1/R2 where it exists. Include is off until you want it.",
+      "folder": "Tools",
+      "dims": [
+        9.6,
+        148.8,
+        10.1
+      ],
+      "source": "Voron-Trident VTr2: Tools/140mm_extrusion_drill_guide.stl",
+      "notes": "Optional assembly jig; flip Include to Yes if you want it.",
+      "reference": {
+        "gramsPerPiece": 5.55,
+        "printSeconds": 1181,
+        "sha256": "453660ff6ab57c3445951c77f0ade78f5d8e1d9aad4b93afc7c9b4f1b1387fea",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 41
+      }
+    },
+    {
+      "file": "ba_pulley_align_tool.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Tools/ba_pulley_align_tool.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "tools",
+      "safety": "SAFE",
+      "safetyReason": "Official optional jig; identical R1/R2 where it exists. Include is off until you want it.",
+      "folder": "Tools",
+      "dims": [
+        18.7,
+        31.1,
+        29.6
+      ],
+      "source": "Voron-Trident VTr2: Tools/ba_pulley_align_tool.stl",
+      "notes": "Optional assembly jig; flip Include to Yes if you want it.",
+      "reference": {
+        "gramsPerPiece": 6.89,
+        "printSeconds": 1838,
+        "sha256": "92c99dcaef676a6e289f00b35aeebb5d4403b7c5ae0314a4aa77d4bdf82ec0a5",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 227
+      }
+    },
+    {
+      "file": "MGN12_rail_guide_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Tools/MGN12_rail_guide_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "tools",
+      "safety": "SAFE",
+      "safetyReason": "Official optional jig; identical R1/R2 where it exists. Include is off until you want it.",
+      "folder": "Tools",
+      "dims": [
+        30.1,
+        25,
+        8
+      ],
+      "source": "Voron-Trident VTr2: Tools/MGN12_rail_guide_x2.stl",
+      "notes": "Optional assembly jig; flip Include to Yes if you want it.",
+      "reference": {
+        "gramsPerPiece": 2.86,
+        "printSeconds": 627,
+        "sha256": "d56bd9b521475499ea27796228a147a4291014329d2b168abb548d686773212a",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "MGN9_rail_guide_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Tools/MGN9_rail_guide_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "tools",
+      "safety": "SAFE",
+      "safetyReason": "Official optional jig; identical R1/R2 where it exists. Include is off until you want it.",
+      "folder": "Tools",
+      "dims": [
+        26,
+        20.5,
+        10
+      ],
+      "source": "Voron-Trident VTr2: Tools/MGN9_rail_guide_x2.stl",
+      "notes": "Optional assembly jig; flip Include to Yes if you want it.",
+      "reference": {
+        "gramsPerPiece": 2.32,
+        "printSeconds": 600,
+        "sha256": "bbd4cf6fc1ef3d50a0e1faacc7b5123db79ff4b8ce31f31d677df95bf49dad8d",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 41
+      }
+    },
+    {
+      "file": "ptfe_jig_35mm.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Tools/ptfe_jig_35mm.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "tools",
+      "safety": "SAFE",
+      "safetyReason": "Official optional jig; identical R1/R2 where it exists. Include is off until you want it.",
+      "folder": "Tools",
+      "dims": [
+        24,
+        10,
+        36
+      ],
+      "source": "Voron-Trident VTr2: Tools/ptfe_jig_35mm.stl",
+      "notes": "Optional assembly jig; flip Include to Yes if you want it.",
+      "reference": {
+        "gramsPerPiece": 4.78,
+        "printSeconds": 1970,
+        "sha256": "0ea05bb4a7d10e817e16e641fdab5e477d00101df77c5176bee887d9e4942b5a",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 754
+      }
+    },
+    {
+      "file": "z_alignment_tool_rear.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Tools/z_alignment_tool_rear.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "tools",
+      "safety": "SAFE",
+      "safetyReason": "Official optional jig; identical R1/R2 where it exists. Include is off until you want it.",
+      "folder": "Tools",
+      "dims": [
+        42,
+        23.3,
+        8
+      ],
+      "source": "Voron-Trident VTr2: Tools/z_alignment_tool_rear.stl",
+      "notes": "Optional assembly jig; flip Include to Yes if you want it.",
+      "reference": {
+        "gramsPerPiece": 3.54,
+        "printSeconds": 731,
+        "sha256": "1675be508015e55557ad8bc4c96f924adcea3832090b31136aa536296559db7d",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 57
+      }
+    },
+    {
+      "file": "[a]_z_carriage_left.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/[a]_z_carriage_left.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        57.3,
+        41.4,
+        4
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/[a]_z_carriage_left.stl",
+      "reference": {
+        "gramsPerPiece": 4.35,
+        "printSeconds": 924,
+        "sha256": "02a63ace36b5fde8f4484905052dec60745fa922e2492e5a189a25795a80f557",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_z_carriage_right.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/[a]_z_carriage_right.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        57.3,
+        41.4,
+        4
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/[a]_z_carriage_right.stl",
+      "reference": {
+        "gramsPerPiece": 4.35,
+        "printSeconds": 923,
+        "sha256": "a8d8fcd3b604cea5a2e3468f37dddb8cc26c70d2fec9d2a74adca396f59ea7e6",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_z_cover_left.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/[a]_z_cover_left.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        70,
+        70,
+        3
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/[a]_z_cover_left.stl",
+      "reference": {
+        "gramsPerPiece": 11.62,
+        "printSeconds": 1941,
+        "sha256": "26386533e2712f3ecbec1b8b60224ab3b7bbc7dfc723058a9ee56a9466f3b3e5",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_z_cover_rear.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/[a]_z_cover_rear.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        84,
+        75.2,
+        3
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/[a]_z_cover_rear.stl",
+      "reference": {
+        "gramsPerPiece": 12.65,
+        "printSeconds": 2032,
+        "sha256": "08bf26a450f0141e7582c66b481e19de8b8896c35cc02b6249be64ee872f41c2",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_z_rail_stop_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/[a]_z_rail_stop_x2.stl",
+      "color": "Accent",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official qty is 2; draft pack lists x4. Print 2 now and check the count at assembly.",
+      "folder": "Z_Assembly",
+      "dims": [
+        18,
+        8,
+        8
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/[a]_z_rail_stop_x2.stl",
+      "reference": {
+        "gramsPerPiece": 0.54,
+        "printSeconds": 360,
+        "sha256": "044149decc81d94f8612f197e662749f5af9173e9ee71123e66597991b822fcf",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 174
+      }
+    },
+    {
+      "file": "rear_vertext_upper_brace.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/rear_vertext_upper_brace.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        23.6,
+        55.2,
+        24
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/rear_vertext_upper_brace.stl",
+      "reference": {
+        "gramsPerPiece": 11.25,
+        "printSeconds": 2750,
+        "sha256": "f13753c2520971718d3971651c1ed36e7a2e61de3e16d5af79c1c64ce25bbde4",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 1
+      }
+    },
+    {
+      "file": "wago_221-412_mount.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/wago_221-412_mount.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        22.2,
+        76,
+        12.2
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/wago_221-412_mount.stl",
+      "reference": {
+        "gramsPerPiece": 5.88,
+        "printSeconds": 1462,
+        "sha256": "bdd918a0a9abb82cf09e0743d485e5939d841fb39feb1a2043101f655e8434a0",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "z_bed_left.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/z_bed_left.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        53.5,
+        51.8,
+        13.8
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/z_bed_left.stl",
+      "reference": {
+        "gramsPerPiece": 10.47,
+        "printSeconds": 2250,
+        "sha256": "1b9accb17cf2a58e62cd83fe8ca12e28edf1a1a517b38c75a22c28bc02a71382",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 11
+      }
+    },
+    {
+      "file": "z_bed_rear.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/z_bed_rear.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        29.2,
+        61,
+        20
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/z_bed_rear.stl",
+      "reference": {
+        "gramsPerPiece": 11.96,
+        "printSeconds": 2691,
+        "sha256": "45499ba0f1313b8fb53cd11d5efdf1fd99de1046228ac51ff113da4782317a4f",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 55
+      }
+    },
+    {
+      "file": "z_bed_right.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/z_bed_right.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        53.5,
+        51.8,
+        13.8
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/z_bed_right.stl",
+      "reference": {
+        "gramsPerPiece": 10.47,
+        "printSeconds": 2245,
+        "sha256": "d1946425009c9d550de297229bcbbde4031c73135c40233880520c18ac3b2c26",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 11
+      }
+    },
+    {
+      "file": "z_carriage_left.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/z_carriage_left.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        57.3,
+        41.4,
+        36
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/z_carriage_left.stl",
+      "reference": {
+        "gramsPerPiece": 18.25,
+        "printSeconds": 3855,
+        "sha256": "121021ff010accd56fe04b45a811d262c7a890199a664eaaafbf366bd21b66d0",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 90
+      }
+    },
+    {
+      "file": "z_carriage_rear.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/z_carriage_rear.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        49.1,
+        76.1,
+        36
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/z_carriage_rear.stl",
+      "reference": {
+        "gramsPerPiece": 24.23,
+        "printSeconds": 5096,
+        "sha256": "89ea7cbf31d06bb2412d62cc1f34b827759c361439055c10a3dbde11e8a6cb36",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "z_carriage_right.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/z_carriage_right.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        57.3,
+        41.4,
+        36
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/z_carriage_right.stl",
+      "reference": {
+        "gramsPerPiece": 18.25,
+        "printSeconds": 3864,
+        "sha256": "ce417a3bb2e92b29a5850322ae0753804ab87068fea8bdbc07f6f32dc28f3c50",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 89
+      }
+    },
+    {
+      "file": "z_lower_3hole.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/z_lower_3hole.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "z-cable-chain-pattern",
+      "safety": "SAFE",
+      "safetyReason": "Formbot R1 kit used a 3-hole Z chain mount and the draft pack ships only 3-hole.",
+      "folder": "Z_Assembly",
+      "dims": [
+        40,
+        71.5,
+        45
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/z_lower_3hole.stl",
+      "notes": "3-hole generic chain mount. Formbot R1 kit used a 3-hole mount, so likely this.",
+      "reference": {
+        "gramsPerPiece": 13.18,
+        "printSeconds": 3621,
+        "sha256": "aba869a7bcaec83ee6a3e9a046777ca79da08b0455e365681c3467540dbdd475",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 842
+      }
+    },
+    {
+      "file": "z_rear_insert_3hole.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/z_rear_insert_3hole.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "z-cable-chain-pattern",
+      "safety": "SAFE",
+      "safetyReason": "Formbot R1 kit used a 3-hole Z chain mount and the draft pack ships only 3-hole.",
+      "folder": "Z_Assembly",
+      "dims": [
+        36,
+        20.3,
+        5
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/z_rear_insert_3hole.stl",
+      "notes": "Pair with z_lower_3hole.",
+      "reference": {
+        "gramsPerPiece": 2.81,
+        "printSeconds": 708,
+        "sha256": "6c67cf89a3d94bba9099bfb0ee2d02e7c68f53c7d4448219af80566944c58a84",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "z_stepper_left.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/z_stepper_left.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        62,
+        62,
+        21.4
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/z_stepper_left.stl",
+      "reference": {
+        "gramsPerPiece": 27.39,
+        "printSeconds": 6378,
+        "sha256": "0e615b2317344d09c8cff65d6345cd04b534575e988098219e51e104563edeb3",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 7
+      }
+    },
+    {
+      "file": "z_stepper_rear.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/z_stepper_rear.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        78,
+        56,
+        21.4
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/z_stepper_rear.stl",
+      "reference": {
+        "gramsPerPiece": 32.87,
+        "printSeconds": 7574,
+        "sha256": "ce2b783b519d9ad3e9a85a31a56df80ddb3c9d164d6490390a776a12cad5ab00",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 7
+      }
+    },
+    {
+      "file": "z_stepper_right.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/z_stepper_right.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Z_Assembly",
+      "dims": [
+        62,
+        62,
+        21.4
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/z_stepper_right.stl",
+      "reference": {
+        "gramsPerPiece": 27.4,
+        "printSeconds": 6381,
+        "sha256": "683beaa21ca34a318c2cf5809b3f22de0555d41d89c85915e4b1adc140c73ff1",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 7
+      }
+    },
+    {
+      "file": "cable_frame_anchor_x9.stl",
+      "repository": "voron-trident",
+      "path": "STLs/electronics_bay/cable_frame_anchor_x9.stl",
+      "color": "Primary",
+      "qty": 9,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "electronics_bay",
+      "dims": [
+        16,
+        11.7,
+        5.8
+      ],
+      "source": "Voron-Trident VTr2: electronics_bay/cable_frame_anchor_x9.stl",
+      "reference": {
+        "gramsPerPiece": 0.63,
+        "printSeconds": 332,
+        "sha256": "ece65a7affbd67da0fa3099f3b951a7b37556d8877908a7290aef747b03151d7",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 116
+      }
+    },
+    {
+      "file": "din_center_support_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/electronics_bay/din_center_support_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "electronics_bay",
+      "dims": [
+        11.3,
+        38.6,
+        7
+      ],
+      "source": "Voron-Trident VTr2: electronics_bay/din_center_support_x2.stl",
+      "reference": {
+        "gramsPerPiece": 0.77,
+        "printSeconds": 367,
+        "sha256": "033deecbd8b17b618bc3c4f4c3786f57498a64cbb632d900f21a0dee352c67bc",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 161
+      }
+    },
+    {
+      "file": "din_frame_mount_x4.stl",
+      "repository": "voron-trident",
+      "path": "STLs/electronics_bay/din_frame_mount_x4.stl",
+      "color": "Primary",
+      "qty": 4,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "electronics_bay",
+      "dims": [
+        14,
+        60,
+        11.8
+      ],
+      "source": "Voron-Trident VTr2: electronics_bay/din_frame_mount_x4.stl",
+      "reference": {
+        "gramsPerPiece": 6.58,
+        "printSeconds": 1703,
+        "sha256": "d8f3671d2bc82847f26f5261b83c6c6940cffe1fe5cfe01b9266251b55910342",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 16
+      }
+    },
+    {
+      "file": "pcb_din_clip_x3.stl",
+      "repository": "voron-trident",
+      "path": "STLs/electronics_bay/pcb_din_clip_x3.stl",
+      "color": "Primary",
+      "qty": 3,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "electronics_bay",
+      "dims": [
+        17.6,
+        62,
+        10
+      ],
+      "source": "Voron-Trident VTr2: electronics_bay/pcb_din_clip_x3.stl",
+      "reference": {
+        "gramsPerPiece": 5.23,
+        "printSeconds": 1477,
+        "sha256": "3bb12cf2e3705f7bb28d6093563b9fb6b748a401fa261012c047fdd47ed3eec6",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "psu_stabilizer_50mm.stl",
+      "repository": "voron-trident",
+      "path": "STLs/electronics_bay/psu_stabilizer_50mm.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "electronics_bay",
+      "dims": [
+        56.9,
+        43.8,
+        15
+      ],
+      "source": "Voron-Trident VTr2: electronics_bay/psu_stabilizer_50mm.stl",
+      "reference": {
+        "gramsPerPiece": 3.63,
+        "printSeconds": 1263,
+        "sha256": "af086922f9f7962e2397dc74563fa29e21907ba4b60bdf292669f797926de3c9",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 314
+      }
+    },
+    {
+      "file": "wago_221-415_corner_mount.stl",
+      "repository": "voron-trident",
+      "path": "STLs/electronics_bay/wago_221-415_corner_mount.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "SAFE",
+      "safetyReason": "Official part; byte-identical in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "electronics_bay",
+      "dims": [
+        106,
+        85.8,
+        12.2
+      ],
+      "source": "Voron-Trident VTr2: electronics_bay/wago_221-415_corner_mount.stl",
+      "reference": {
+        "gramsPerPiece": 10.7,
+        "printSeconds": 2498,
+        "sha256": "5595b17ab8ccfcd8391ba5877cadf12b31d9349ba6f57dcf4ac654ddea7428fa",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "3-6.STL",
+      "repository": "formbot-voron-trident",
+      "path": "only custom STLs/Primary/3-6.STL",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "unidentified-formbot-part",
+      "safety": "UNSURE",
+      "safetyReason": "Unidentified part; reused unchanged in the draft pack.",
+      "folder": "Formbot_custom",
+      "dims": [
+        88,
+        56,
+        11.8
+      ],
+      "source": "Formbot only-custom-STLs: Primary/3-6.STL",
+      "notes": "FLAG: purpose unknown, no docs. See Flags sheet.",
+      "reference": {
+        "gramsPerPiece": 18.92,
+        "printSeconds": 3493,
+        "sha256": "ce629655130d3b55878a51668389589971f37e63ed9af22c0bb685fece852f67",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "Anchor v2.stl",
+      "repository": "formbot-voron-trident",
+      "path": "only custom STLs/Primary/Anchor v2.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "cw2-umbilical-anchor",
+      "safety": "UNSURE",
+      "safetyReason": "Same file as the draft pack's (accent there). Toolhead end matches SB; umbilical geometry unverified.",
+      "folder": "Formbot_custom",
+      "dims": [
+        37.3,
+        39.7,
+        21.1
+      ],
+      "source": "Formbot only-custom-STLs: Primary/Anchor v2.stl",
+      "notes": "FLAG: Formbot PG7 toolhead anchor, see Flags sheet.",
+      "reference": {
+        "gramsPerPiece": 6.76,
+        "printSeconds": 1773,
+        "sha256": "c5ac9bedccd5738856808df348d5bae2d0492ea251793c0bb30ebb6f67df3e39",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 72
+      }
+    },
+    {
+      "file": "BTT HDMI5 V1_2 mount bracket_Regular.stl",
+      "repository": "formbot-voron-trident",
+      "path": "only custom STLs/Accent/BTT HDMI5 V1_2 mount bracket_Regular.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "display-mount-hdmi5",
+      "safety": "UNSURE",
+      "safetyReason": "Draft pack replaces the two-part mount with a single HDMI5 Screen Holder.",
+      "folder": "Formbot_custom",
+      "dims": [
+        127,
+        73.8,
+        72.4
+      ],
+      "source": "Formbot only-custom-STLs: Accent/BTT HDMI5 V1_2 mount bracket_Regular.stl",
+      "notes": "R2 kit page lists an HDMI V1.2 touch screen. Mounts to the skirt; 350 side skirts are byte-identical R1/R2.",
+      "reference": {
+        "gramsPerPiece": 46.04,
+        "printSeconds": 11574,
+        "sha256": "ac38c301dec8102b64d52d7994f49427e249a5870553b5fd210b1704b149c353",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 59
+      }
+    },
+    {
+      "file": "BTT HDMI5 V1_2 mount frame_Regular.stl",
+      "repository": "formbot-voron-trident",
+      "path": "only custom STLs/Accent/BTT HDMI5 V1_2 mount frame_Regular.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "display-mount-hdmi5",
+      "safety": "UNSURE",
+      "safetyReason": "Draft pack replaces the two-part mount with a single HDMI5 Screen Holder.",
+      "folder": "Formbot_custom",
+      "dims": [
+        128.4,
+        83.4,
+        12.7
+      ],
+      "source": "Formbot only-custom-STLs: Accent/BTT HDMI5 V1_2 mount frame_Regular.stl",
+      "notes": "As above.",
+      "reference": {
+        "gramsPerPiece": 20.2,
+        "printSeconds": 4259,
+        "sha256": "de025c38dfe8757de928248880018d7ee9164468b87e58b3534f3ddc5bc14709",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "cable support rod for CAN.STL",
+      "repository": "formbot-voron-trident",
+      "path": "only custom STLs/Primary/cable support rod for CAN.STL",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "umbilical-gantry-end-formbot",
+      "safety": "UNSURE",
+      "safetyReason": "Re-exported in draft pack with the same size; bay cable anchors changed R1->R2 (x6 to x9).",
+      "folder": "Formbot_custom",
+      "dims": [
+        174.5,
+        21.5,
+        9
+      ],
+      "source": "Formbot only-custom-STLs: Primary/cable support rod for CAN.STL",
+      "notes": "FLAG: R1 electronics-bay folder part, see Flags sheet.",
+      "reference": {
+        "gramsPerPiece": 9.51,
+        "printSeconds": 1855,
+        "sha256": "f0722c8fabadb098f020a68446bd5227446233e8246be3f1eb2711778a90c47d",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "Manta_M8P_2pc.stl",
+      "repository": "formbot-voron-trident",
+      "path": "only custom STLs/Primary/Manta_M8P_2pc.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "controller-mount",
+      "safety": "SAFE",
+      "safetyReason": "Draft pack swaps in a different M8P bracket (167.5 x 100 x 8); this one may be superseded.",
+      "folder": "Formbot_custom",
+      "dims": [
+        40.1,
+        99.5,
+        7
+      ],
+      "source": "Formbot only-custom-STLs: Primary/Manta_M8P_2pc.stl",
+      "notes": "Manta M8P V2 (confirmed on R2 kit page). R1-era file; R2 deck hole pattern unverified.",
+      "reference": {
+        "gramsPerPiece": 7.65,
+        "printSeconds": 1910,
+        "sha256": "9e285abede1bf32df428e1fc36bbdbd43fb25450dedba86ab55469c5c7cdc698",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 52
+      }
+    },
+    {
+      "file": "trident_bed_mount_bracket_right_r1.stl",
+      "repository": "formbot-voron-trident",
+      "path": "only custom STLs/Primary/Nevermore/trident_bed_mount_bracket_right_r1.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "UNSURE",
+      "safetyReason": "Reused unchanged in Formbot's draft R2 pack, but the left Z/bed area changed in R2.",
+      "folder": "Formbot_custom/Nevermore",
+      "dims": [
+        124.4,
+        157.9,
+        20
+      ],
+      "source": "Formbot only-custom-STLs: Primary/Nevermore/trident_bed_mount_bracket_right_r1.stl",
+      "notes": "Formbot bed-mount bracket (R1 file name; mounts to left extrusion under bed).",
+      "reference": {
+        "gramsPerPiece": 35.09,
+        "printSeconds": 7445,
+        "sha256": "8592436436b52fda3ba4061870161f414795ce4fffa24597232d9f1aad493b67",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "Trident_Bed_Mount_Plenum.stl",
+      "repository": "formbot-voron-trident",
+      "path": "only custom STLs/Primary/Nevermore/Trident_Bed_Mount_Plenum.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "UNSURE",
+      "safetyReason": "Reused unchanged in Formbot's draft R2 pack, but the left Z/bed area changed in R2.",
+      "folder": "Formbot_custom/Nevermore",
+      "dims": [
+        130,
+        68.6,
+        20.5
+      ],
+      "source": "Formbot only-custom-STLs: Primary/Nevermore/Trident_Bed_Mount_Plenum.stl",
+      "notes": "Formbot bed-mount Nevermore plenum body.",
+      "reference": {
+        "gramsPerPiece": 43.09,
+        "printSeconds": 10504,
+        "sha256": "d527fc74c3482d28d3bafacd95b818f71cc849181090a164ea38b8d46c77b51f",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 10
+      }
+    },
+    {
+      "file": "Trident_Bed_Mount_Plenum_Lid_r1.stl",
+      "repository": "formbot-voron-trident",
+      "path": "only custom STLs/Primary/Nevermore/Trident_Bed_Mount_Plenum_Lid_r1.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "nevermore-plenum-lid",
+      "safety": "UNSURE",
+      "safetyReason": "Reused unchanged in Formbot's draft R2 pack, but the left Z/bed area changed in R2.",
+      "folder": "Formbot_custom/Nevermore",
+      "dims": [
+        122.8,
+        68.5,
+        2.8
+      ],
+      "source": "Formbot only-custom-STLs: Primary/Nevermore/Trident_Bed_Mount_Plenum_Lid_r1.stl",
+      "notes": "Formbot's own lid, kept only as the fallback because the Nevermore V6 lid you asked for is narrower than this plenum.",
+      "reference": {
+        "gramsPerPiece": 12.25,
+        "printSeconds": 2591,
+        "sha256": "62aa694bcc81b91ce1062b75f41229ff6b9308ea94184a0a850c5df541b608bb",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "Trident_Bed_Mount_XL_Cartridge.stl",
+      "repository": "formbot-voron-trident",
+      "path": "only custom STLs/Primary/Nevermore/Trident_Bed_Mount_XL_Cartridge.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "UNSURE",
+      "safetyReason": "Reused unchanged in Formbot's draft R2 pack, but the left Z/bed area changed in R2.",
+      "folder": "Formbot_custom/Nevermore",
+      "dims": [
+        130,
+        81.8,
+        20.5
+      ],
+      "source": "Formbot only-custom-STLs: Primary/Nevermore/Trident_Bed_Mount_XL_Cartridge.stl",
+      "notes": "Formbot bed-mount Nevermore XL cartridge.",
+      "reference": {
+        "gramsPerPiece": 40.54,
+        "printSeconds": 12259,
+        "sha256": "e1bef207cdf937c0a057f33d2ebaec404823b32f8d698309f0a6147b840c66ef",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 5
+      }
+    },
+    {
+      "file": "Trident_Bed_Mount_XL_Cartridge_LID.stl",
+      "repository": "formbot-voron-trident",
+      "path": "only custom STLs/Primary/Nevermore/Trident_Bed_Mount_XL_Cartridge_LID.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "UNSURE",
+      "safetyReason": "Reused unchanged in Formbot's draft R2 pack, but the left Z/bed area changed in R2.",
+      "folder": "Formbot_custom/Nevermore",
+      "dims": [
+        122,
+        61.3,
+        1.8
+      ],
+      "source": "Formbot only-custom-STLs: Primary/Nevermore/Trident_Bed_Mount_XL_Cartridge_LID.stl",
+      "notes": "Cartridge lid (not the plenum lid).",
+      "reference": {
+        "gramsPerPiece": 10,
+        "printSeconds": 1993,
+        "sha256": "0391443301bb201abc3f449d0c75263a420d67565c2b84c9876cab3315b4391a",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_d2f_cover.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/XY_Joints/[a]_d2f_cover.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "right-xy-joint-accent",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Not in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/X_Axis/XY_Joints",
+      "dims": [
+        55.5,
+        22.4,
+        10.2
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/XY_Joints/[a]_d2f_cover.stl",
+      "notes": "Only if you use the D2F variant of the right joint.",
+      "reference": {
+        "gramsPerPiece": 3.25,
+        "printSeconds": 962,
+        "sha256": "2cf2c972500c6c3a16196157cbebb17032391037cf68ca9d625f8de4b6fb3026",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 193
+      }
+    },
+    {
+      "file": "[a]_xy_right.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/XY_Joints/[a]_xy_right.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "right-xy-joint-accent",
+      "safety": "UNSURE",
+      "safetyReason": "Draft pack ships a modified version of this accent; which official file matches your endstops is unverified.",
+      "folder": "Gantry/X_Axis/XY_Joints",
+      "dims": [
+        56,
+        46,
+        5
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/XY_Joints/[a]_xy_right.stl",
+      "notes": "Probably the 'plain' accent (X-carriage/A-mount switches or sensorless). Not verified which filename maps to which manual option.",
+      "reference": {
+        "gramsPerPiece": 8.15,
+        "printSeconds": 1782,
+        "sha256": "8251ef642857579e2f4d69a8fe1bd6fa6c27271989a3d3310ecf84958c564701",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_xy_right_d2f.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/XY_Joints/[a]_xy_right_d2f.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "right-xy-joint-accent",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Not in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Gantry/X_Axis/XY_Joints",
+      "dims": [
+        56,
+        46,
+        10
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/XY_Joints/[a]_xy_right_d2f.stl",
+      "notes": "Presumably a D2F-switch variant (not verified). Manual p.125 shows 'plain' vs 'XY endstop PCB' accents.",
+      "reference": {
+        "gramsPerPiece": 8.91,
+        "printSeconds": 2078,
+        "sha256": "17ba94c4c623a5968a074e1b28fce596f0991f4213abd2f75d526e04388f998c",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 73
+      }
+    },
+    {
+      "file": "x_carriage_frame_left.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/X_Carriage/x_carriage_frame_left.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "x-carriage",
+      "safety": "UNSURE",
+      "safetyReason": "R2 manual needs it, but the draft pack has no X carriage frames. Formbot may ship a different carriage.",
+      "folder": "Gantry/X_Axis/X_Carriage",
+      "dims": [
+        32.4,
+        68.8,
+        21.6
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/X_Carriage/x_carriage_frame_left.stl",
+      "notes": "R2 kit uses a Cartographer, not Tap, so the stock R2 X carriage applies. Cartographer mount is NOT in the cloned repos.",
+      "reference": {
+        "gramsPerPiece": 16.04,
+        "printSeconds": 3894,
+        "sha256": "5e848c2c1cd86e0c30c2b9c17697100c94430a4b0e69d5489fa1d06f83f149fa",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "x_carriage_frame_right.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/X_Carriage/x_carriage_frame_right.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "x-carriage",
+      "safety": "UNSURE",
+      "safetyReason": "R2 manual needs it, but the draft pack has no X carriage frames. Formbot may ship a different carriage.",
+      "folder": "Gantry/X_Axis/X_Carriage",
+      "dims": [
+        32.4,
+        68.8,
+        21.6
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/X_Carriage/x_carriage_frame_right.stl",
+      "notes": "R2 kit uses a Cartographer, so the stock R2 X carriage applies.",
+      "reference": {
+        "gramsPerPiece": 16.18,
+        "printSeconds": 3927,
+        "sha256": "e8c7cab3e39960f7fe7be7e9127ae6d6bb7f17dbed168c7fd97ef79b16b9f23f",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "corner_panel_clip_4mm_x8.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/corner_panel_clip_4mm_x8.stl",
+      "color": "Primary",
+      "qty": 8,
+      "look": "Visible",
+      "group": "panel-clip-thickness",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels",
+      "dims": [
+        35,
+        35,
+        7
+      ],
+      "source": "Voron-Trident VTr2: Panels/corner_panel_clip_4mm_x8.stl",
+      "notes": "Pick 4mm or 6mm set to match your panels (corner + midspan of the same thickness).",
+      "reference": {
+        "gramsPerPiece": 2.91,
+        "printSeconds": 708,
+        "sha256": "bee8029494b226d4efdce707597e88dd7b0cc3efc1b8b07d9d956f87f2f8bb5b",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "corner_panel_clip_6mm_x8.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/corner_panel_clip_6mm_x8.stl",
+      "color": "Primary",
+      "qty": 8,
+      "look": "Visible",
+      "group": "panel-clip-thickness",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels",
+      "dims": [
+        35,
+        35,
+        10
+      ],
+      "source": "Voron-Trident VTr2: Panels/corner_panel_clip_6mm_x8.stl",
+      "notes": "6mm corner clips.",
+      "reference": {
+        "gramsPerPiece": 4.21,
+        "printSeconds": 1014,
+        "sha256": "7919f421879a25868df65ad7c723a9a2c33ae0f9a3d04e62aea40b476350d766",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "midspan_panel_clip_4mm_x7.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/midspan_panel_clip_4mm_x7.stl",
+      "color": "Primary",
+      "qty": 7,
+      "look": "Visible",
+      "group": "panel-clip-thickness",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels",
+      "dims": [
+        35,
+        20,
+        7
+      ],
+      "source": "Voron-Trident VTr2: Panels/midspan_panel_clip_4mm_x7.stl",
+      "notes": "4mm midspan clips.",
+      "reference": {
+        "gramsPerPiece": 1.91,
+        "printSeconds": 507,
+        "sha256": "e48b6e0a315456c00928fba39f98cd79878c3aa1e928e5881ed23d8e5906f47f",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 38
+      }
+    },
+    {
+      "file": "midspan_panel_clip_6mm_x8.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/midspan_panel_clip_6mm_x8.stl",
+      "color": "Primary",
+      "qty": 8,
+      "look": "Visible",
+      "group": "panel-clip-thickness",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels",
+      "dims": [
+        35,
+        20,
+        10
+      ],
+      "source": "Voron-Trident VTr2: Panels/midspan_panel_clip_6mm_x8.stl",
+      "notes": "6mm midspan clips.",
+      "reference": {
+        "gramsPerPiece": 2.74,
+        "printSeconds": 720,
+        "sha256": "057de5b6b6637fc3995c880ce1783f9ae5dafb432c739a2c45374629083b167a",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 56
+      }
+    },
+    {
+      "file": "[a]_exhaust_grill.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/ptfe_rear_plate/[a]_exhaust_grill.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Visible",
+      "group": "rear-ptfe-plate",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels/ptfe_rear_plate",
+      "dims": [
+        37.6,
+        154.8,
+        5.6
+      ],
+      "source": "Voron-Trident VTr2: Panels/ptfe_rear_plate/[a]_exhaust_grill.stl",
+      "notes": "Rear panel PTFE entry + exhaust grill; confirm you use it.",
+      "reference": {
+        "gramsPerPiece": 9.39,
+        "printSeconds": 2522,
+        "sha256": "c32ebf3448068f85058bc971d75b89b498ab0eafa51b6b7fbeaec7efbfaf8c88",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "ptfe_inlet_clamp.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/ptfe_rear_plate/ptfe_inlet_clamp.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Visible",
+      "group": "rear-ptfe-plate",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels/ptfe_rear_plate",
+      "dims": [
+        21.7,
+        31.1,
+        30.8
+      ],
+      "source": "Voron-Trident VTr2: Panels/ptfe_rear_plate/ptfe_inlet_clamp.stl",
+      "notes": "Rear panel PTFE entry.",
+      "reference": {
+        "gramsPerPiece": 5.19,
+        "printSeconds": 1882,
+        "sha256": "5717bee2f3b090336b80f0e93ec32e0cda57d69fe44bc0d6a2c02394bed25c3e",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 345
+      }
+    },
+    {
+      "file": "ptfe_plate.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Panels/ptfe_rear_plate/ptfe_plate.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Visible",
+      "group": "rear-ptfe-plate",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Panels/ptfe_rear_plate",
+      "dims": [
+        158.4,
+        61.6,
+        10
+      ],
+      "source": "Voron-Trident VTr2: Panels/ptfe_rear_plate/ptfe_plate.stl",
+      "notes": "Rear panel PTFE entry.",
+      "reference": {
+        "gramsPerPiece": 32.17,
+        "printSeconds": 6064,
+        "sha256": "7b524db16f84d4e3a0f5199d8d3fa5778d2a16e3cf1262a44477e2b81802b2e3",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 24
+      }
+    },
+    {
+      "file": "[a]_fan_grill_open_optional_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/[a]_fan_grill_open_optional_x2.stl",
+      "color": "Accent",
+      "qty": 2,
+      "look": "Visible",
+      "group": "side-fan-grill-style",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt",
+      "dims": [
+        60,
+        60,
+        3.2
+      ],
+      "source": "Voron-Trident VTr2: Skirt/[a]_fan_grill_open_optional_x2.stl",
+      "notes": "Optional open-style alternative to fan_grill_a/b.",
+      "reference": {
+        "gramsPerPiece": 2.72,
+        "printSeconds": 767,
+        "sha256": "e4fe920f1c4478b24f831371254673d070e4637ae443c1153df0dd2a297cf27c",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_keystone_blank_insert_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/[a]_keystone_blank_insert_x2.stl",
+      "color": "Accent",
+      "qty": 2,
+      "look": "Visible",
+      "group": "keystone-rear-skirt",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt",
+      "dims": [
+        18.9,
+        21.9,
+        16
+      ],
+      "source": "Voron-Trident VTr2: Skirt/[a]_keystone_blank_insert_x2.stl",
+      "notes": "Blank inserts for the keystone skirt.",
+      "reference": {
+        "gramsPerPiece": 2.01,
+        "printSeconds": 877,
+        "sha256": "cae6b206c8fa2c08daa008b70eca47d238b0a391db720ecbc3828e00073ed43c",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 244
+      }
+    },
+    {
+      "file": "rear_skirt_keystone.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/rear_skirt_keystone.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Visible",
+      "group": "keystone-rear-skirt",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt",
+      "dims": [
+        66.8,
+        114,
+        20
+      ],
+      "source": "Voron-Trident VTr2: Skirt/rear_skirt_keystone.stl",
+      "notes": "Optional keystone-jack rear skirt. Unclear whether it replaces a power skirt; check CAD.",
+      "reference": {
+        "gramsPerPiece": 38.71,
+        "printSeconds": 7799,
+        "sha256": "30d1ef9c8c08ed6f9738eb975d99afb0dbfa7a9ddf3d5e0160ada64f90dad76a",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "rear_skirt_power_adamstech.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/rear_skirt_power_adamstech.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Visible",
+      "group": "power-inlet-rear-skirt",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Not in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt",
+      "dims": [
+        114,
+        66.8,
+        20
+      ],
+      "source": "Voron-Trident VTr2: Skirt/rear_skirt_power_adamstech.stl",
+      "notes": "Adamstech combo inlet.",
+      "reference": {
+        "gramsPerPiece": 34.13,
+        "printSeconds": 7081,
+        "sha256": "ccd715b2ac54a9ff8d638ed37bae55d95c4304dab1c85e11f5746640610c2aa7",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "rear_skirt_power_filtered.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Skirt/rear_skirt_power_filtered.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Visible",
+      "group": "power-inlet-rear-skirt",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Skirt",
+      "dims": [
+        114,
+        66.8,
+        20
+      ],
+      "source": "Voron-Trident VTr2: Skirt/rear_skirt_power_filtered.stl",
+      "notes": "Filtered inlet. Formbot's repo has a filtered inlet, so likely this.",
+      "reference": {
+        "gramsPerPiece": 33.45,
+        "printSeconds": 6991,
+        "sha256": "a252eaf80cba8da87173d4d92285b32c644a5ade51af70dec846667a12623202",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "cable_door.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Clockwork2/cable_door.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "cw2-cable-door-toolhead-pcb",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Not in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Toolhead/Clockwork2",
+      "dims": [
+        49.4,
+        69.4,
+        42.2
+      ],
+      "source": "Voron-Stealthburner: Clockwork2/cable_door.stl",
+      "notes": "Plain door without a toolhead PCB.",
+      "reference": {
+        "gramsPerPiece": 10.07,
+        "printSeconds": 2575,
+        "sha256": "b04692db5e4a0723baf9162ea6d2d45d0c85dda84b949d38aed3f45424c8a06b",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 184
+      }
+    },
+    {
+      "file": "chain_anchor_2hole.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Clockwork2/chain_anchor_2hole.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "cw2-umbilical-anchor",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Not in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Toolhead/Clockwork2",
+      "dims": [
+        37.6,
+        51,
+        22.9
+      ],
+      "source": "Voron-Stealthburner: Clockwork2/chain_anchor_2hole.stl",
+      "notes": "Official SB chain anchor. Formbot says to use their Anchor v2 instead.",
+      "reference": {
+        "gramsPerPiece": 6.3,
+        "printSeconds": 1748,
+        "sha256": "9295511ccd94371bd8fd7ca9233e44393841836063ee643dc463cd15655743d8",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 197
+      }
+    },
+    {
+      "file": "chain_anchor_3hole.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Clockwork2/chain_anchor_3hole.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "cw2-umbilical-anchor",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Not in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Toolhead/Clockwork2",
+      "dims": [
+        36.9,
+        51.2,
+        22.9
+      ],
+      "source": "Voron-Stealthburner: Clockwork2/chain_anchor_3hole.stl",
+      "notes": "Official SB chain anchor. Formbot says to use their Anchor v2 instead.",
+      "reference": {
+        "gramsPerPiece": 6.26,
+        "printSeconds": 1774,
+        "sha256": "775b9080b0b9eb924ac8e826640359e95f88ad967b0978c47b27154a73c7ed8a",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 196
+      }
+    },
+    {
+      "file": "[a]_latch.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Clockwork2/Direct_Drive/[a]_latch.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "extruder",
+      "safety": "UNSURE",
+      "safetyReason": "Draft pack ships 'Latch_fat_finger' instead of the official CW2 latch.",
+      "folder": "Toolhead/Clockwork2/Direct_Drive",
+      "dims": [
+        22,
+        42.3,
+        10.4
+      ],
+      "source": "Voron-Stealthburner: Clockwork2/Direct_Drive/[a]_latch.stl",
+      "notes": "Clockwork 2 direct drive.",
+      "reference": {
+        "gramsPerPiece": 3.08,
+        "printSeconds": 833,
+        "sha256": "0c19de5661d4fc9666ce5a45e1f15d5a783f6ca17a35c2d6960625cc51fa57e5",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 1
+      }
+    },
+    {
+      "file": "main_body.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Clockwork2/Direct_Drive/main_body.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "extruder",
+      "safety": "UNSURE",
+      "safetyReason": "Draft pack ships a modified Clockwork 2 body (probe mount?). Official file may not match the kit's probe.",
+      "folder": "Toolhead/Clockwork2/Direct_Drive",
+      "dims": [
+        62.8,
+        68.7,
+        24.7
+      ],
+      "source": "Voron-Stealthburner: Clockwork2/Direct_Drive/main_body.stl",
+      "notes": "Clockwork 2 direct drive.",
+      "reference": {
+        "gramsPerPiece": 21.45,
+        "printSeconds": 5548,
+        "sha256": "243f74cac6a77dd20b1b4173f1f7a330d2c124583224020a282c6010b8e076bd",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 50
+      }
+    },
+    {
+      "file": "motor_plate.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Clockwork2/Direct_Drive/motor_plate.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "extruder",
+      "safety": "UNSURE",
+      "safetyReason": "Draft pack ships a modified Clockwork 2 motor plate. Official file may not match the kit.",
+      "folder": "Toolhead/Clockwork2/Direct_Drive",
+      "dims": [
+        53.7,
+        73.6,
+        8.2
+      ],
+      "source": "Voron-Stealthburner: Clockwork2/Direct_Drive/motor_plate.stl",
+      "notes": "Clockwork 2 direct drive.",
+      "reference": {
+        "gramsPerPiece": 13.39,
+        "printSeconds": 3129,
+        "sha256": "a324e43b1588f448a308cee2436df4eb9d1f27c1ab6fa51b9bbd1ee9044623b6",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 7
+      }
+    },
+    {
+      "file": "sb_adxl_mount_generic_15.5mm_c_c.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Stealthburner/ADXL345_Mounts/sb_adxl_mount_generic_15.5mm_c_c.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "adxl-mount",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Not in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Toolhead/Stealthburner/ADXL345_Mounts",
+      "dims": [
+        33.2,
+        13.4,
+        9.7
+      ],
+      "source": "Voron-Stealthburner: Stealthburner/ADXL345_Mounts/sb_adxl_mount_generic_15.5mm_c_c.stl",
+      "notes": "Formbot's copy is byte-identical; using this one. Only needed for resonance testing.",
+      "reference": {
+        "gramsPerPiece": 1.76,
+        "printSeconds": 612,
+        "sha256": "40be65f6e5125a293712b8ebc0f603122801d5eaefe8360eff884863d2469fa4",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 64
+      }
+    },
+    {
+      "file": "sb_adxl_washer_x2.stl",
+      "repository": "voron-stealthburner",
+      "path": "STLs/Stealthburner/ADXL345_Mounts/sb_adxl_washer_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "adxl-mount",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Not in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "Toolhead/Stealthburner/ADXL345_Mounts",
+      "dims": [
+        5.4,
+        5.4,
+        3
+      ],
+      "source": "Voron-Stealthburner: Stealthburner/ADXL345_Mounts/sb_adxl_washer_x2.stl",
+      "notes": "Washers for the ADXL mount.",
+      "reference": {
+        "gramsPerPiece": 0.05,
+        "printSeconds": 43,
+        "sha256": "91830b648e0cc92efe6fb6007f906802111f24e8b3baff6f95bf171ee413b126",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 25
+      }
+    },
+    {
+      "file": "[a]_z_carriage_rear.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/[a]_z_carriage_rear.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "UNSURE",
+      "safetyReason": "Draft pack ships a modified version; official file may differ from the kit's.",
+      "folder": "Z_Assembly",
+      "dims": [
+        49.1,
+        76.1,
+        4
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/[a]_z_carriage_rear.stl",
+      "reference": {
+        "gramsPerPiece": 5.6,
+        "printSeconds": 1167,
+        "sha256": "ba7dfdeb6ac5f17dc0602e913c48dd8eccde773c30e4d57567fef4f39b4ef3cc",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "[a]_z_cover_right.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/[a]_z_cover_right.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "UNSURE",
+      "safetyReason": "Draft pack ships a modified version (about 40% fewer triangles, same size).",
+      "folder": "Z_Assembly",
+      "dims": [
+        70,
+        70,
+        3
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/[a]_z_cover_right.stl",
+      "reference": {
+        "gramsPerPiece": 11.62,
+        "printSeconds": 1908,
+        "sha256": "a118c88fd70ace350a28abbc3c82cf666299fe61661b7f66c5c28b6bf2414288",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "z_endstop.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/z_endstop.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "",
+      "safety": "UNSURE",
+      "safetyReason": "Absent from the draft pack. With a Cartographer the probe may act as the Z endstop, so this may be unused.",
+      "folder": "Z_Assembly",
+      "dims": [
+        21.2,
+        29,
+        17
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/z_endstop.stl",
+      "reference": {
+        "gramsPerPiece": 6.32,
+        "printSeconds": 1693,
+        "sha256": "d6ab0e58acb14dd650aea141abdefa6a5b4c59c90b01d20d27974953887609ea",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "deck_support_3mm_optional_x6.stl",
+      "repository": "voron-trident",
+      "path": "STLs/electronics_bay/deck_support_3mm_optional_x6.stl",
+      "color": "Primary",
+      "qty": 6,
+      "look": "Hidden",
+      "group": "deck-support-thickness",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Not in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "electronics_bay",
+      "dims": [
+        20,
+        14.5,
+        5.8
+      ],
+      "source": "Voron-Trident VTr2: electronics_bay/deck_support_3mm_optional_x6.stl",
+      "notes": "Optional; match your deck panel thickness.",
+      "reference": {
+        "gramsPerPiece": 1.07,
+        "printSeconds": 362,
+        "sha256": "ab0d69dc18da1516ace18da5be493a82099a332e0767082467b25c9d935a3f03",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 48
+      }
+    },
+    {
+      "file": "deck_support_4mm_optional_x6.stl",
+      "repository": "voron-trident",
+      "path": "STLs/electronics_bay/deck_support_4mm_optional_x6.stl",
+      "color": "Primary",
+      "qty": 6,
+      "look": "Hidden",
+      "group": "deck-support-thickness",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "electronics_bay",
+      "dims": [
+        19,
+        14.5,
+        5.8
+      ],
+      "source": "Voron-Trident VTr2: electronics_bay/deck_support_4mm_optional_x6.stl",
+      "notes": "Optional; match your deck panel thickness.",
+      "reference": {
+        "gramsPerPiece": 1.02,
+        "printSeconds": 359,
+        "sha256": "f1c1bb755ebc365d0626d3bc067c255cf72c8ef6537e17a0bf8f7ba24bfd8f34",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 53
+      }
+    },
+    {
+      "file": "lrs_psu_bracket_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/electronics_bay/lrs_psu_bracket_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "24v-psu-mount",
+      "safety": "UNSURE",
+      "safetyReason": "Kit has a 200W PSU: LRS-200 or UHP-200 not stated, and the draft pack ships both.",
+      "folder": "electronics_bay",
+      "dims": [
+        65,
+        19.6,
+        14
+      ],
+      "source": "Voron-Trident VTr2: electronics_bay/lrs_psu_bracket_x2.stl",
+      "notes": "Mean Well LRS-200. Kit has a 200W PSU and Formbot ships the identical file, so likely this.",
+      "reference": {
+        "gramsPerPiece": 7.44,
+        "printSeconds": 2117,
+        "sha256": "dea64eb6a7ab54e650c4149f98197b9b7b6ca27bfa26b79bf49639a78551e4fe",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "raspberrypi_bracket.stl",
+      "repository": "voron-trident",
+      "path": "STLs/electronics_bay/raspberrypi_bracket.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "host-computer-mount",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Not in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "electronics_bay",
+      "dims": [
+        54,
+        63,
+        7
+      ],
+      "source": "Voron-Trident VTr2: electronics_bay/raspberrypi_bracket.stl",
+      "notes": "Kit uses Manta M8P + CB1, so probably not needed.",
+      "reference": {
+        "gramsPerPiece": 4.52,
+        "printSeconds": 1210,
+        "sha256": "60c84d9322c1baf5344614188707ac215cca16274105075b3f842dda6ee63fe1",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 67
+      }
+    },
+    {
+      "file": "rs25_psu_bracket.stl",
+      "repository": "voron-trident",
+      "path": "STLs/electronics_bay/rs25_psu_bracket.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "5v-psu-mount",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Not in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "electronics_bay",
+      "dims": [
+        67,
+        19.6,
+        10
+      ],
+      "source": "Voron-Trident VTr2: electronics_bay/rs25_psu_bracket.stl",
+      "notes": "Only if the kit has a separate RS-25-5 5V PSU.",
+      "reference": {
+        "gramsPerPiece": 5.7,
+        "printSeconds": 1653,
+        "sha256": "c5a9af4c273e44369b95f5ece5b0f9d11966708641d99cf07e4880412e17fa21",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "UHP_200_Mount_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/electronics_bay/other_ps_mounts/UHP_200_Mount_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "24v-psu-mount",
+      "safety": "UNSURE",
+      "safetyReason": "Kit has a 200W PSU: LRS-200 or UHP-200 not stated, and the draft pack ships both.",
+      "folder": "electronics_bay/other_ps_mounts",
+      "dims": [
+        55,
+        20.6,
+        8
+      ],
+      "source": "Voron-Trident VTr2: electronics_bay/other_ps_mounts/UHP_200_Mount_x2.stl",
+      "notes": "Mean Well UHP-200 only.",
+      "reference": {
+        "gramsPerPiece": 4.22,
+        "printSeconds": 1224,
+        "sha256": "166b50a9df357f4d5b7bbf45f139231a8d4e03c9a8ca11221a9e563327bb03d2",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "UHP_350_Mount_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/electronics_bay/other_ps_mounts/UHP_350_Mount_x2.stl",
+      "color": "Primary",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "24v-psu-mount",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Not in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "electronics_bay/other_ps_mounts",
+      "dims": [
+        62,
+        20.6,
+        8
+      ],
+      "source": "Voron-Trident VTr2: electronics_bay/other_ps_mounts/UHP_350_Mount_x2.stl",
+      "notes": "Mean Well UHP-350 only.",
+      "reference": {
+        "gramsPerPiece": 4.76,
+        "printSeconds": 1347,
+        "sha256": "f8410f7157b4b9770fc06f7d194cb56e76e9040e8e4e9f634a9e11dd74fa1a36",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "ptfe_holder.stl",
+      "repository": "voron-trident",
+      "path": "STLs/spool_holder/ptfe_holder.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "spool-holder",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "spool_holder",
+      "dims": [
+        34.1,
+        85.1,
+        16
+      ],
+      "source": "Voron-Trident VTr2: spool_holder/ptfe_holder.stl",
+      "notes": "Optional; the kit may include its own spool holder.",
+      "reference": {
+        "gramsPerPiece": 12.44,
+        "printSeconds": 2772,
+        "sha256": "95f7362f71ec0b1ba6f0b6f7a6bac5ed1b1d00a8a01e77e6edb4c11e809b1a6b",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "spool_holder_arm.stl",
+      "repository": "voron-trident",
+      "path": "STLs/spool_holder/spool_holder_arm.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "spool-holder",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "spool_holder",
+      "dims": [
+        109,
+        29.4,
+        13
+      ],
+      "source": "Voron-Trident VTr2: spool_holder/spool_holder_arm.stl",
+      "notes": "Optional; the kit may include its own spool holder.",
+      "reference": {
+        "gramsPerPiece": 14.54,
+        "printSeconds": 3361,
+        "sha256": "3e86e7edef37544d616e433fe336f6279cc9e2538b5edbc11119ef36d08d6dfc",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "spool_holder_base.stl",
+      "repository": "voron-trident",
+      "path": "STLs/spool_holder/spool_holder_base.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "spool-holder",
+      "safety": "UNSURE",
+      "safetyReason": "Variant not yet confirmed against your kit. Official file is in Formbot's draft R2 pack (unreleased, unconfirmed).",
+      "folder": "spool_holder",
+      "dims": [
+        50,
+        28,
+        30.2
+      ],
+      "source": "Voron-Trident VTr2: spool_holder/spool_holder_base.stl",
+      "notes": "Optional; the kit may include its own spool holder.",
+      "reference": {
+        "gramsPerPiece": 17.31,
+        "printSeconds": 3703,
+        "sha256": "adb5ed6588e62c015242c1c67ca86b2c0d4b8f744c6ac78a4c2fa1f2976af1c4",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 28
+      }
+    },
+    {
+      "file": "PG7 Gantry Adapter.stl",
+      "repository": "formbot-voron-trident",
+      "path": "only custom STLs/Accent/PG7 Gantry Adapter.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "umbilical-gantry-end-formbot",
+      "safety": "DO NOT PRINT",
+      "safetyReason": "R1-only. Every gantry part it could mate with changed in R2, and Formbot's draft R2 pack dropped it.",
+      "folder": "Formbot_custom",
+      "dims": [
+        17.7,
+        31,
+        40
+      ],
+      "source": "Formbot only-custom-STLs: Accent/PG7 Gantry Adapter.stl",
+      "notes": "FLAG: R1-era gantry adapter, see Flags sheet.",
+      "reference": {
+        "gramsPerPiece": 3.98,
+        "printSeconds": 1820,
+        "sha256": "2b0a1180fef64e7ad7f25829c6b58b9ac0a1c1b92ee105fa08481a7cdc28f979",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 580
+      }
+    },
+    {
+      "file": "[a]_cable_bridge_2hole.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/XY_Joints/[a]_cable_bridge_2hole.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "xy-cable-bridge",
+      "safety": "DO NOT PRINT",
+      "safetyReason": "Kit uses an umbilical (swing arm + PG7 per Formbot; no bridge in draft pack). R2 manual p.138: skip the bridge.",
+      "folder": "Gantry/X_Axis/XY_Joints",
+      "dims": [
+        68.3,
+        43,
+        21
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/XY_Joints/[a]_cable_bridge_2hole.stl",
+      "notes": "Manual p.138: skip the bridge if you run an umbilical (your kit has a PG7/CAN umbilical, so likely skip both). 2 vs 3 hole = your chain's mounting pattern.",
+      "reference": {
+        "gramsPerPiece": 8.4,
+        "printSeconds": 2369,
+        "sha256": "9398e0971fc3aee7887ec9b8d6f9466890934d526696381689bcd0c7aa8a4209",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 173
+      }
+    },
+    {
+      "file": "[a]_cable_bridge_3hole.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/XY_Joints/[a]_cable_bridge_3hole.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "xy-cable-bridge",
+      "safety": "DO NOT PRINT",
+      "safetyReason": "Kit uses an umbilical (swing arm + PG7 per Formbot; no bridge in draft pack). R2 manual p.138: skip the bridge.",
+      "folder": "Gantry/X_Axis/XY_Joints",
+      "dims": [
+        68.3,
+        43,
+        21
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/XY_Joints/[a]_cable_bridge_3hole.stl",
+      "notes": "Manual p.138: skip the bridge if you run an umbilical. 3 hole = generic chain pattern.",
+      "reference": {
+        "gramsPerPiece": 8.35,
+        "printSeconds": 2362,
+        "sha256": "169e0b78cf7313301ad7381d6b09ffad7d412774b8839b09cfed550412ceedc6",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 160
+      }
+    },
+    {
+      "file": "pinda_adapter.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/X_Carriage/pinda_adapter.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "x-carriage-inductive-probe",
+      "safety": "DO NOT PRINT",
+      "safetyReason": "PINDA probe adapter; the kit ships a Cartographer.",
+      "folder": "Gantry/X_Axis/X_Carriage",
+      "dims": [
+        17,
+        17,
+        28
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/X_Carriage/pinda_adapter.stl",
+      "notes": "PINDA adapter; not used with a Cartographer.",
+      "reference": {
+        "gramsPerPiece": 4.78,
+        "printSeconds": 1627,
+        "sha256": "3433dadc41935da924c693382c60176df645af75f40e0946a0d4511eb9c34354",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 321
+      }
+    },
+    {
+      "file": "probe_retainer_bracket.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/X_Carriage/probe_retainer_bracket.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "x-carriage-inductive-probe",
+      "safety": "DO NOT PRINT",
+      "safetyReason": "Inductive-probe part; the kit ships a Cartographer.",
+      "folder": "Gantry/X_Axis/X_Carriage",
+      "dims": [
+        8.2,
+        18.7,
+        4
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/X_Carriage/probe_retainer_bracket.stl",
+      "notes": "Inductive probe retainer; not used with a Cartographer.",
+      "reference": {
+        "gramsPerPiece": 0.44,
+        "printSeconds": 228,
+        "sha256": "21db46a10f896e1eec0ff62bc9e904f2b80ccac98e31c341b1e817ab9efcc213",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 76
+      }
+    },
+    {
+      "file": "probe_retainer_bracket_9mm.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/X_Axis/X_Carriage/probe_retainer_bracket_9mm.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "x-carriage-inductive-probe",
+      "safety": "DO NOT PRINT",
+      "safetyReason": "Inductive-probe part; the kit ships a Cartographer.",
+      "folder": "Gantry/X_Axis/X_Carriage",
+      "dims": [
+        8.2,
+        18.7,
+        4
+      ],
+      "source": "Voron-Trident VTr2: Gantry/X_Axis/X_Carriage/probe_retainer_bracket_9mm.stl",
+      "notes": "Inductive probe retainer; not used with a Cartographer.",
+      "reference": {
+        "gramsPerPiece": 0.46,
+        "printSeconds": 230,
+        "sha256": "8224dbc79555414be1a10e4be032d44dac5d5a3cdfc6f8ea5c463f9f869e3a9f",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 68
+      }
+    },
+    {
+      "file": "[a]_cover_logo_x2.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/ba_drive_units/[a]_cover_logo_x2.stl",
+      "color": "Accent",
+      "qty": 2,
+      "look": "Hidden",
+      "group": "a-b-motor-cover",
+      "safety": "DO NOT PRINT",
+      "safetyReason": "For short-shaft motors; the kit has long-shaft XY motors.",
+      "folder": "Gantry/ba_drive_units",
+      "dims": [
+        43.2,
+        42.2,
+        8
+      ],
+      "source": "Voron-Trident VTr2: Gantry/ba_drive_units/[a]_cover_logo_x2.stl",
+      "notes": "Logo cover (short-shaft motors, no outboard bearing).",
+      "reference": {
+        "gramsPerPiece": 6.46,
+        "printSeconds": 1487,
+        "sha256": "de44a64c2c0814233613b3903c5e40b256582184e2539a529149cf754f9bad95",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 29
+      }
+    },
+    {
+      "file": "[a]_y_bumper.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Gantry/ba_drive_units/[a]_y_bumper.stl",
+      "color": "Accent",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "y-endstop",
+      "safety": "DO NOT PRINT",
+      "safetyReason": "Only for the XY endstop PCB; Formbot uses switch endstops.",
+      "folder": "Gantry/ba_drive_units",
+      "dims": [
+        20,
+        34,
+        24
+      ],
+      "source": "Voron-Trident VTr2: Gantry/ba_drive_units/[a]_y_bumper.stl",
+      "notes": "Only with the optional XY endstop PCB. Skip both for sensorless.",
+      "reference": {
+        "gramsPerPiece": 6.48,
+        "printSeconds": 1654,
+        "sha256": "2e434542ab7c9d6573ca90921f6f823cf2e36bd7d9c5a0ec2341418cc786203f",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 191
+      }
+    },
+    {
+      "file": "V6_Plenum_Lid.stl",
+      "repository": "nevermore-micro",
+      "path": "V6/STL/V6_Plenum_Lid.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "nevermore-plenum-lid",
+      "safety": "DO NOT PRINT",
+      "safetyReason": "120.5 x 58.1 mm cannot cover Formbot's 130 x 68.6 mm bed-mount plenum. Use Formbot's lid (122.8 x 68.5) unless you find a better match.",
+      "folder": "Nevermore",
+      "dims": [
+        120.5,
+        58.1,
+        3
+      ],
+      "source": "Nevermore_Micro: V6/STL/V6_Plenum_Lid.stl",
+      "notes": "Requested Nevermore-repo lid. FLAG: does not match Formbot plenum footprint, see Flags sheet.",
+      "reference": {
+        "gramsPerPiece": 12.86,
+        "printSeconds": 2171,
+        "sha256": "ff4bd30df302f46d402fcfa1be078304237d2a39d7f11c559bc0043fcfa9dda0",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    },
+    {
+      "file": "z_lower_2hole.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/z_lower_2hole.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "z-cable-chain-pattern",
+      "safety": "DO NOT PRINT",
+      "safetyReason": "Formbot R1 and the draft pack both use 3-hole Z chain parts. Flip if your chain has 2 holes.",
+      "folder": "Z_Assembly",
+      "dims": [
+        40,
+        71.5,
+        45
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/z_lower_2hole.stl",
+      "notes": "2-hole (igus-style) chain mount.",
+      "reference": {
+        "gramsPerPiece": 13.15,
+        "printSeconds": 3613,
+        "sha256": "95d93e4531d3696f64199dff7d9571234c466094a8ee264c59f5f49d03dd215d",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 857
+      }
+    },
+    {
+      "file": "z_rear_insert_2hole.stl",
+      "repository": "voron-trident",
+      "path": "STLs/Z_Assembly/z_rear_insert_2hole.stl",
+      "color": "Primary",
+      "qty": 1,
+      "look": "Hidden",
+      "group": "z-cable-chain-pattern",
+      "safety": "DO NOT PRINT",
+      "safetyReason": "Formbot R1 and the draft pack both use 3-hole Z chain parts. Flip if your chain has 2 holes.",
+      "folder": "Z_Assembly",
+      "dims": [
+        36,
+        20.3,
+        5
+      ],
+      "source": "Voron-Trident VTr2: Z_Assembly/z_rear_insert_2hole.stl",
+      "notes": "Pair with z_lower_2hole.",
+      "reference": {
+        "gramsPerPiece": 2.83,
+        "printSeconds": 666,
+        "sha256": "ba0404455c6c013fc4f4254a90f1f1962940ba4d6d8592e494004a1f9d84884d",
+        "profile": "0.20mm STRUCTURAL @COREONE 0.4 - Voron (PrusaSlicer, Prusament ASA, 4 perimeters, 40% grid infill, 5 top and bottom layers, no supports)",
+        "paddingSeconds": 0
+      }
+    }
+  ]
+}

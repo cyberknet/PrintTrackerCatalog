@@ -1,0 +1,12 @@
+[submodule "Trident_Ultra/VoronDesign-Voron-Trident@a8628f485469"]
+	path = Trident_Ultra/VoronDesign-Voron-Trident@a8628f485469
+	url = https://github.com/VoronDesign/Voron-Trident
+[submodule "Trident_Ultra/VoronDesign-Voron-Stealthburner@8bcb9c246fac"]
+	path = Trident_Ultra/VoronDesign-Voron-Stealthburner@8bcb9c246fac
+	url = https://github.com/VoronDesign/Voron-Stealthburner
+[submodule "Trident_Ultra/FORMBOT-Voron-Trident@2b2fb7bf45c4"]
+	path = Trident_Ultra/FORMBOT-Voron-Trident@2b2fb7bf45c4
+	url = https://github.com/FORMBOT/Voron-Trident
+[submodule "Trident_Ultra/nevermore3d-Nevermore_Micro@8740b34fcc88"]
+	path = Trident_Ultra/nevermore3d-Nevermore_Micro@8740b34fcc88
+	url = https://github.com/nevermore3d/Nevermore_Micro
