@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kit": "formbot-trident-r2-ultra",
-  "version": "1",
+  "version": "2",
   "repositories": [
     {
       "id": "voron-trident",

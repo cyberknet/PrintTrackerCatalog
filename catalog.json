@@ -9,7 +9,7 @@
       "name": "Formbot Trident R2 Ultra (350 mm)",
       "directory": "Trident_Ultra",
       "description": "The printed parts for a Voron Trident R2 350 mm built from Formbot's R2 Ultra kit: Voron R2 frame, gantry and Z parts, Stealthburner toolhead, a Nevermore plenum lid, and Formbot's own additions.",
-      "version": "1"
+      "version": "2"
     }
   ]
 }
